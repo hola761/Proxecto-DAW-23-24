@@ -19,55 +19,50 @@
   - [3- Requirimentos técnicos](#3--requirimentos-técnicos)
   - [4- Planificación](#4--planificación)
 
-> _EXPLICACIÓN_: Este documento será a páxina de explicación de en que consiste o teu proxecto. Coida a súa redacción con todo ou teu mimo. Elimina posteriormente todas as lineas "EXPLICACIÓN" cando creas finalizada a súa redacción.
-> Podes acompañar á redacción deste ficheiro con imaxes, pero non abuses deles.
-> Explica da mellor forma posible de en que consiste o proxecto é que ferramentas e linguaxes de programación empregarás.
+## 1- Descrición do proxecto  
+> Este proyecto centrarase na realización dunha sinxela aplicación para un pequeno negocio (ainda que sería posíble facela de xeito xeral e poder adeitala a outros negocios) de limpeza e pequenas reparacións de automóveis. 
+ 
+> O propósito é que sexa a aplicación principal da empresa. Ofrecendo melloras contínuas acorde ás súas peticións e necesidades.
 
-## 1- Descrición do proxecto
-
-> _EXPLICACIÓN_: Realiza unha breve descrición do anteproxecto.Resalta o fundamental *coas túas propias palabras\*\*. Utiliza unha linguaxe correcta, *pero natural\*\*, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.
->
-> Neste apartado trátase de describir a análise realizada e a toma de decisións adoptada sobre aspectos básicos ou iniciais do proxecto como:
->
-> - ¿En que consiste o noso proxecto?  
-> ¿Cal é o propósito principal da aplicación a desenvolver?  
-> ¿Cales son os obxectivos?
+> Temos como obxectivo ofrecer un software axeitado ás necesidades de cada empresa que requira os nosos servizos. Un produto completamente personalizado e, ofrecer tamén formación, mantemento e servizo de servidor.
 > - ¿O desenvolvemento da aplicación abre unha oportunidade de negocio?  
+> Sí.
 > ¿É posible comercializala?  
-> Como?
-> - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
+> Sí.
+> Como?  
+> 
+> - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?  
+> html, css, javascript, sql, php, java
 
 ## 2- Empresa
 
-> _EXPLICACIÓN_: Neste apartado desenvolveredes todo o referente os módulos de Empresa e iniciativa emprendedora e de FOL.
-
 ### 2.1- Idea de negocio
 
-> _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
+> O produto ofrecido será un software de administración totalmente personalizado acorde ás necesidades de cada cliente  
+
+> O público obxectivo son empresas pequenas en crecemento e sen software adaptado  
+> -De qué xeito ofrecerás ou venderás o teu produto?
 
 ### 2.2- Xustificación da idea
 
-> _EXPLICACIÓN_: Neste apartado incluirase a información necesaria para xustificar a realización do proxecto. Debe indicarse como xurdiu a idea do proxecto, que obxectivo se persegue coa súa posta en marcha e/ou que problema vai resolver.
->
-> En este apartado indicade a nivel de idea de negocio:
->
-> - ¿Cal é a necesidade ou necesidades que se pretenden cubrir ou satisfacer?
-> - ¿Existen na actualidade aplicacións ou productos que tenten dar resposta a esa(s) necesidade(s)? ¿En que medida o conseguen?
-> - ¿Trátase de un segmento de mercado desabastecido ou insuficientemente atendido?
+> Pretendemos axudar á organización da información de pequenos negocios en crecemento. Neste caso será dirixida a un taller en específico porque a idea e que en cada negocio se parta dende 0 co obxectivo de conseguir unha completa personalización acorde ás necesidades de cada un dos clientes que contraten os nosos servizos.
+  
+> No mercado existen varias aplicacións dirixidas exclusivamente para talleres como: Tuulapp ou TallerAlpha.    
+  
+> A última moi completa e descargable dende calquer dispositivo. Tamén e a que mais se achega á nosa idea.
+  
+> Como a idea e que sexa un producto completamente personalizado, require dun certo grado e presencialidade para chegar a comprender perfectamente o que quere cada cliente. Na nosa zona (Ribeira) non existen empresas que ofrezan devanditos servizos pero sí hay moitos pequenos negocios e xente con ganas de traballar, mellorar e crecer no seu sector.  
 > - ¿Un produto ineficiente?  
 > Un mercado novo?
->
 > Para sustentar as xustificación deberás proporcionar datos. Fontes máis utilizadas: INE, IGE, Informes sectoriais de
 > Industria, Statista... Deberás facer unha DAFO.
+> ![Diagrama DAFO](/doc/img/DAFO.png)
 
 ### 2.3- Segmento de clientes
 
-> _EXPLICACIÓN_: Neste apartado debes indicar a quen irá dirixido o negocio, os potenciales clientes, respostando as seguinte pregunta: ¿A quen está dirixido?
->
-> Debes:
->
-> - Indicar o segmento ou segmentos cos rasgos principais e cuantificar o mercado.
-> - E se é o caso, diferenciar entre usuario e cliente.
+> Este negocio está dirixido a empresas pequenas en pleno crecemento.
+ 
+> Nun principio, a aplicación irá dirixida exclusivamente, por falta de tempo, ós negocios. Ainda que a idea sería rematala cunha parte para os clientes, para que podan, por exemplo, pedir cita ou realizar unha compra, dependendo do tipo de negocio ó que vaia dirixido a nosa aplicación.
 
 ### 2.4- Competencia
 
@@ -75,69 +70,104 @@
 
 ### 2.5- Proposta de valor
 
-> _EXPLICACIÓN_: **Apartado fundamental.**
->
-> - En que se diferencia fronte os competidores.
-> - Que melloras terá fronte os competidores.
-> - Que valor aporta ao mercado.
-> - ¿Porqué mercarán/contratarán este producto/servizo/idea fronte o resto?
+> Pese a existir varias aplicacións existentes, a nosa ofrece unha personalización que unha aplicación feita de xeito xeral non ten.  
+  
+> Hay pequenas empresas que carecen de programas que se adapten ás súas necesidades de administración de datos de clientes, por exemplo.  
+  
+> O produto que ofrecemos axudará nesa organización e en calquera necesidade que precisen atender: apps para poder pedir citas os clientes, saber qué servizos son os mais vendidos e poder tomar decisión en consecuencia, en definitiva, o que precisen.
+> 
+> A clave dun negocio próspero é coñecer as súas debilidades pero tamén as súas fortalezas e, en consecuencia, mellorar en todos os ámbitos para poder ofrecer o mellor produto posible.
 
 ### 2.6- Forma xurídica
-
-> _EXPLICACIÓN_: Neste apartado deberedes indicar a forma xurídica: autónomo, soc. Cooperativa, SL,.. Explicando (nun par de frases) por que escolledes esta forma
+  
+> Sociedad de Responsabilidad Limitada(S.L/S.R.L): Elixida tanto polo número de socios necesarios como polo capital mínimo necesario pra levar a cabo a constitución da empresa. Tamén para poder responder únicamente cos bens da empresa e non cos propios.
 
 ### 2.7- Investimentos
 
-> _EXPLICACIÓN_: Neste apartado idicaremos o investimentos, aínda que sexa, só unha enumeración de todo o que necesitan (locais, infraestruturas, equipos, suministros, mobiliario...) cuantificando cada elemento.
+> Investimento total inicial: 1735€  
+> Total equipo: 1330€  
+> -torre: 60€  
+> -fuente de alimentación: 50€  
+> -tarjeta gráfica: 240€  
+> -placa base: 160€  
+> -procesador: 210€  
+> -memoria ram: 115€  
+> -disco duro: 70€  
+> -refrigeración: 88€  
+> -monitor: 190€  
+> -teclado: 80€  
+> -ratón: 52€  
+> -altavoces: 15€  
+> Total gasto contratación luz: 55.82€  
+> -derecho de extensión: 21.02€  
+> -derecho de acceso: 23.50€  
+> -derecho de enganche: 11.30€  
+> Total mobiliario: 349€  
+> -silla: 239€  
+> -mesa: 110€
 
 #### 2.7.1- Custos
 
-> > _EXPLICACIÓN_: Neste apartado idicaremos o invertimento
->
-> - Diferenzando custos fixos de variables.
-> - Computando impostos e custos sociais.
+> Total custos fixos: 750€/mes  
+> -alquiler: 700€  
+> -suministros: 49.50€  
+> *internet: 35.50€  
+> *auga: 14€  
+> Total custos variables: media de 60€
+> -luz: 47.50€(estimación)
+> - Computando impostos e custos sociais.  
+> Impostos(imposto de sociedades: 23%... 15% por ser de creación reciente y se calcula sobre el resultado de restar los gastos de los ingresos): xxxx€  
+> Custos sociais(¿?): xxxx€
 
 #### 2.7.2- Ingresos
 
-> _EXPLICACIÓN_: Neste apartado indicarase unha previsión de ventas e unha política de prezos. Isto implicar apuntar unha previsión de ventas e unha política de prezos.
+> Total ventas previstas último terzo 2024: 11865€  
+> -Por venta de aplicación(1): 11640€  
+> -Por formacións(4h): 120€  
+> -Por seguemento contratado(3meses): 45€
+> -Por servidor e mantemento contratado(3meses): 60€   
+> Listaxe prezos:  
+> -Entrega e instalación software básico: 3000€  
+> -Custo traballadores: 8640€min  
+> *horas mínimas adicadas: 8h/dia, 20dias/mes, 3meses: 480h  
+> *custo por traballador/hora: 18€  
+> -Formación: 30€/h  
+> -Seguemento: 15€/mes  
+> -Custo servidor e mantemento: 20€/mes
 
 ### 2.8- Viabilidade
 
 #### 2.8.1- Viabilidade técnica
 
-> _EXPLICACIÓN_: Neste subapartado deberás defender tendo en conta os datos xa aportados, a viabilidade da realización do proyecto.
-> Evidentemente, para poder xustificar a viabilidade económica do proyecto deberás ter en conta os ingresos. **Ainda que está na parte de empresa, este apartado é interesante dende o punto de vista técnico**
->
-> - Será posible dispoñer dos recursos humanos e medios de produción necesarios (materias primas, maquinaria, instalacións, etc.)?
+> O proxecto é viable dende o punto de vista técnico. É posible dispoñer tanto do local como do equipo necesario para levalo a cabo. Non se observa ningún tipo de impedemento, nin técnico, nin económico.
 > - Existe algún impedimento técnico que dificulte o proceso produtivo?
 
 #### 2.8.2 - Viabilidade económica
-
-> _EXPLICACIÓN_: Neste subapartado deberás defender con datos a viabilidade da realización do proyecto, para elo debes indicar os custos e investimentos:
+ 
+> Custos: 810€/mes  
+> Investimentos: 1735€  
+> 
+> Cuns custos fixos mensuales de uns 810€ e un investimento incial de 1735€. Podemos concluir que o negocio é viable, tendo en conta os ingresos previstos para os primeiros 3 meses de vida do negocio: 11865. Mais, é imperativo ter en conta que, hay que chegar a mais clientes na medida que sexa posible para garantir a supervivencia e crecemento do mesmo.
 
 #### 2.8.3- Conclusión
-
-> - É viable?
-> - Os beneficios do proxecto son superiores aos costes?
+ 
+> O negocio é viable sempre e cando se consiga chegar a mais clientes en caso contrario non. É necesario que, polo menos, 8 empresas teñan contratados os nosos servizos para que o negocio sexa viable.
+  
+> Os beneficios de levar a cabo o primeiro proxecto son superiores ós costes e á inversión incial.
 > - As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?
 
 ## 3- Requirimentos técnicos
 
-> _EXPLICACIÓN_: Descrición dos medios materiais e das tecnoloxías necesarias que se usarán para desenvolver o proxecto incluíndo as linguaxes de programación frontend e backend, técnicas, librerías, bases de datos, servizos usados, servidores, API’s, etc.
->
 > - **Infraestructura:** dominio web, servidor web dedicado, servidor de base de datos, almacenamento, memoria, ...
-> - **Backend:** tecnoloxías usadas.
-> - **Frontend:** tecnoloxías usadas
+> - **Backend:** tecnoloxías empregadas  
+> -Sql: para o script de creación da base de datos  
+> -Php: para o acceso á base de datos  
+> -Javascript: para enlazar os documentos php cos html
+> - **Frontend:** tecnoloxías empregadas  
+> -Javascript: para a funcionalidade da páxina  
+> -Html: para a creación da base visual da páxina web  
+> -Css: para mellorar visualmente a páxina e engadir algunha pequena función
 
 ## 4- Planificación
 
-> _EXPLICACIÓN_: Inclúe un calendario co tempo estimado a adicar a cada fase do proxecto.
->
-> O proxecto estará formado polas seguintes fases:
->
-> - Estudo preliminar
-> - Análise
-> - Deseño
-> - Codificación e probas (debe ser a fase máis longa).
->
-> Debe facerse un calendario ou un diagrama de Gantt indicando, para cada fase, a data de inicio, a súa duración e breve descrición das tarefas a realizar.
+![Diagrama de Gantt](/doc/img/Gantt-oscuro.png)
