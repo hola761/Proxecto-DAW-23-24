@@ -8,55 +8,47 @@
   - [5- Normativa](#5--normativa)
   - [6- Melloras futuras](#6--melloras-futuras)
 
-> *EXPLICACION*: Este documento describe os requirimentos para "nome do proxecto" especificando que funcionalidade ofrecerá e de que xeito.
+Este documento describe os requirimentos para "EmotionsApp" especificando qué funcionalidade ofrecerá e de que xeito.
 
 ## 1- Descrición Xeral
 
->*EXPLICACION*: Descrición Xeral do proxecto
+Pequena aplicación, que non software de xestión, para negocios con poucos clientes e sen a necesidade dun gran software para a súa xestión. Ofrece a posiblidade de, desde unha mesma aplicación, ter unha lista dos seus clientes e/ou servizos e ter unha parte conectada cunha aplicación móvil ofrecida ós seus clientes para que podan comprar e/ou pedir cita según precise o negocio que contrate os nosos servizos.
 
 ## 2- Funcionalidades
 
->*EXPLICACION* Describir que servizos ou operacións se van poder realizar por medio do noso proxecto, indicando que actores interveñen en cada caso.
->
-> Enumeradas, de maneira que na fase de deseño poidamos definir o diagrama ou configuración correspondente a cada funcionalidade.
-> Cada función ten uns datos de entrada e uns datos de saída. Entre os datos de entrada e de saída, realízase un proceso, que debe ser explicado.
+Esta aplicación ofrecerá a posiblidade de organizar os datos dos clientes e dos seus coches, visualizar un historial dos traballos realizados para cada cliente e conectar cunha aplicación para os clientes onde podan pedir cita e/ou comprar algún producto según necesidades do negocio en cuestión.
 
-Exemplo:
-
-| Acción   |  Descrición        |
-|----------|--------------------|
-| Alta de productos   | Dar de alta os productos na base de datos|
-| Modificar productos | Modificación de productos na base de datos|
-| Presentación dos productos  | Mostra dos productos por medio da páxina web |
-
+| Acción | Descrición  |
+|--------|-------------|
+|  Alta de clientes, coches e/ou servizos  |  Dar de alta os clientes, coches e/ou servizos na base de datos  |
+|  Baixa de clientes, coches e/ou servizos  |  Dar de baixa ós clientes, coches e/ou servizos da base de datos  |
+|  Modificación de clientes, coches e/ou servizos  |  Modificar os datos dos clientes, coches e/ou servizos na base de datos  |
+|  Búsqueda de clientes, coches e/ou servizos  |  Mostrar, según un criterio de búsqueda, os clientes, coches e/ou servizos que coincidan  |
+|  Presentación dos servizos ofrecidos  |  Mostrar os servizos ofrecidos (esta será a parte que poderán ver os clientes)  |
+|  Presentación dos coches e/ou produtos á venta  |  Mostrar os produtos á venta (esta será a parte que poderán ver os clientes)  |
 ## 3- Tipos de usuarios
 
-> *EXPLICACION* Describir os tipos de usuario que poderán acceder ao noso sistema. Habitualmente os tipos de usuario veñen definidos polas funcionalidades ás cales teñen acceso. En termos xerais existen moitos grupos de usuarios: anónimos, novos, rexistrados, bloqueados, confirmados, verificados, administradores, etc.
->
-> Exemplo:
->
-> - Usuario xenérico, que terá acceso a ...
-> - Usuario técnico, que poderá...
+O proxecto terá dous tipos de usuarios:  
+ - Usuario administrador: terá acceso a tódolos datos. A inserir, modificar e eliminar da base de datos o que precise.  
+ - Usuario xenérico: terá acceso á búsqueda e visualización de datos pero non poderá nin inserir, nin modificar, nin eliminar.
 
 ## 4- Contorno operacional
 
-> *EXPLICACION* Neste apartado deben describirse os recursos necesarios, dende o punto de vista do usuario, para poder operar coa aplicación web. Habitualmente consiste nun navegador web actualizado e unha conexión a internet.
-Se é necesario algún hardware ou software adicional, deberá indicarse.
-
+Os negocios que requiran os nosos servizos simplemente precisarán dun ordenador, unha conexión a internet e, si así o contratan, os nosos servizos de servidor, para ter acceso cando desexen, tanto desde o negocio como desde outros dispositivos, á nosa aplicación.
 ## 5- Normativa
 
-> *EXPLICACION* Investigarase que normativa vixente afecta ao desenvolvemento do proxecto e de que maneira. O proxecto debe adaptarse ás esixencias legais dos territorios onde vai operar.
-> 
-> Pola natureza dos sistema de información, unha lei que se vai a ter que mencionar de forma obrigatoria é la [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673). O ámbito da LOPDPGDD é nacional. Se a aplicación está pensada para operar a nivel europeo, tamén se debe facer referencia á [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Na documentación debe afirmarse que o proxecto cumpre coa normativa vixente.
->
-> Para cumplir a LOPDPGDD e/ou GDPR debe ter un apartado na web onde se indique quen é a persoa responsable do tratamento dos datos e para que fins se van utilizar. Habitualmente esta información estructúrase nos seguintes apartados:
->
-> - Aviso legal.
-> - Política de privacidade.
-> - Política de cookies.
->
-> É acosenllable ver [exemplos de webs](https://www.spotify.com/es/legal/privacy-policy/) que conteñan textos legais referenciando a LOPDPGDD ou GDPR.
+A normativa que nos afecta é a seguinte  
+Por unha banda, de ámbito nacional:  
+[Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)  
+
+Por outra banda, quizais nun futuro, de ámbito europeo:  
+[General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj)  
+
+Na parte adicada ó cliente, no pé de páxina, haberá os enlaces pertinenetes, que son:  
+ - Aviso legal.
+ - Política de privacidade.
+ - Política de cookies.  
 
 ## 6- Melloras futuras
 
-> *EXPLICACION* É posible que o noso proxecto se centre en resolver un problema concreto que se poderá ampliar no futuro con novas funcionalidades, novas interfaces, etc.
+A mellora futura principal será a de implementar por completo a parte adicada ós clientes, tanto na web como a aplicación para móbiles. Á parte de solucionar calquer error ou problema que poida xurdir á medida que se vai usando á aplicación.
