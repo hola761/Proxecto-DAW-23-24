@@ -3,3 +3,46 @@
     margin: 0;
     padding: 0;
 }
+
+/*=============================================
+=            estilos del header            =
+=============================================*/
+
+header{
+    display: flex;
+    gap: 12rem;
+    /* centrado vertical */
+    /* align-items: center; */
+    background-color: #14213D;
+}
+
+figure{
+    width: 130px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+
+#menu-header ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+#menu-header ul li{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FCA311;
+    text-transform: uppercase;
+}
+
+/*=====  End of estilos del header  ======*/
+
