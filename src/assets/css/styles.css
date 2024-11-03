@@ -4,13 +4,18 @@
     padding: 0;
 }
 
+:root{
+    --tam-fuente-menu: 1.2rem;
+    --fam-fuente-menu: Verdana, Geneva, Tahoma, sans-serif;
+    --col-fuente-menu: #FCA311;
+}
 /*=============================================
 =            estilos del header            =
 =============================================*/
 
 header{
     display: flex;
-    gap: 12rem;
+    gap: 7rem;
     /* centrado vertical */
     /* align-items: center; */
     background-color: #14213D;
@@ -28,6 +33,7 @@ img{
 
 #menu-header{
     display: flex;
+    /* centrado vertical */
     align-items: center;
 }
 
@@ -38,11 +44,42 @@ img{
 }
 
 #menu-header ul li{
-    font-size: 1.2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FCA311;
+    /* font-size: var(--tam-fuente-menu); */
+    font-family: var(--fam-fuente-menu);
+    /* color: var(--col-fuente-menu); */
     text-transform: uppercase;
+    
+    /* probando un fondo para cada enlace, sin éxito */
+    /* width: 110px;
+    height: 50px;
+    background-color: black; */
 }
 
+#menu-header ul li a{
+    font-size: var(--tam-fuente-menu);
+    text-decoration: none;
+    color: var(--col-fuente-menu);
+    transition: color 1s, font-size 1s;
+}
+
+#menu-header ul li a:hover{
+    font-size: calc(var(--tam-fuente-menu)*1.1);
+    color: white;
+}
 /*=====  End of estilos del header  ======*/
+
+
+/*=============================================
+=            Estilos del main            =
+=============================================*/
+main{
+    background: url(../img/logo-emotions.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+}
+
+/*=====  End of estilos del main  ======*/
+
+
 
