@@ -18,10 +18,10 @@ Este documento inclúe os diferentes diagramas, esquemas e deseños que axudan a
 
 ## 3- Diagrama de Base de Datos
 
- - Modelo Entidade/relación
-![Diagrama entidad/relación](/doc/img/Diagrama-BD-ER.png) 
- - Modelo relacional
-![Diagrama relacional](/doc/img/Diagrama-BD-relacional.png) 
+ - Modelo Entidade/relación  
+![Diagrama entidad/relación](/doc/img/Diagrama-BD-ER.png)  
+ - Modelo relacional  
+![Diagrama relacional](/doc/img/Diagrama-BD-relacional.png)  
 
 ## 4- Deseño de interface de usuarios
 
