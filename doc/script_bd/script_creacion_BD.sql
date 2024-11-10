@@ -89,7 +89,7 @@ insert into cliente (dni, nombre, telefono, direccion, email, n_usuario, c_usuar
 values ("56987415j", "Paco", "666555444", "Calle infinita, 86", "paco@mail.com", "pacouser", "abc123."),
 ("54789162o", "Virtudes", "666777111", "Calle para nada, 54", "virtudes@mail.com", "virtuser", "abc123.");
 
-/*Datos de prueba tabla coche-FUNCIONA*/
+/*Datos de prueba tabla coche*/
 insert into coche (matricula, marca, modelo, c_dni)
 values ("5412ijh", "ford", "fiesta", "56987415j"),
 ("6587kkj", "volkswagen", "touran", "54789162o");
