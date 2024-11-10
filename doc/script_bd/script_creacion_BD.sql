@@ -62,7 +62,7 @@ alter table e_realiza_s add constraint pk_e_realiza_s primary key (e_dni, s_nomb
 alter table e_realiza_s add constraint fk_e_realiza_s_empleado foreign key e_realiza_s (e_dni) references empleado (dni);
 alter table e_realiza_s add constraint fk_e_realiza_s_servicio foreign key e_realiza_s (s_nombre) references servicio (nombre);
 
-/*Crear table especialización usuario admin*/
+/*Crear tabla especialización usuario admin*/
 create table u_admin(
 	e_dni varchar(9) not null
 );
