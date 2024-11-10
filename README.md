@@ -38,7 +38,9 @@ Aplicación web de axuda de xestión de negocios pequenos.
 
 > *EXPLICACIÓN*: Neste apartado describe con toda precisión e a poder ser coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun ambiente local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (p. e. un script de instalación, descarga e posta en marcha dun contedor,...).
 
-Para a posta en marcha de proxecto é necesario executar o script de creación da base de datos e inserción dos datos de proba(ainda sen facilitar).  
+Para a posta en marcha de proxecto é necesario executar o script de creación da base de datos e inserción dos datos de proba. Premendo no seguinte enlace abrirase o devandito documento:  
+[Prema aquí para abrir o script de creación da base de datos](/doc/script_bd/script_creacion_BD.sql)  
+
 Tamén serán necesarias...(mais cousas ainda por determinar).
 
 ## Uso
