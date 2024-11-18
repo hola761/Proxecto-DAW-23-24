@@ -175,4 +175,4 @@ Os beneficios de levar a cabo o primeiro proxecto son superiores ós costes e á
 
 ## 4- Planificación
 
-![Diagrama de Gantt](/doc/img/Gantt-oscuro.png)
+![Diagrama de Gantt](/doc/img/Gantt.png)
