@@ -148,7 +148,7 @@ No caso de poder acceder a devanditas axudas sería moi bo nos primeiros meses d
 
 ## 3- Requirimentos técnicos
 
-- **Infraestructura:** servizos necesarios: 
+- **Infraestructura:** servizos necesarios:  
 -Servidor(vps): Será necesario contratar os servizos de almacenamento dunha empresa para poder desplegar as nosas aplicacións para que os nosos clientes poidan acceder a elas e nós podamos facer o mantemento das mesmas así como implementar melloras, ou solucionar posibles erros.
 - **Backend:** empregaránse as seguintes tecnoloxías:  
 -Mysql: como xestor de base de datos.  
