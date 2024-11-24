@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts.css');
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --tam-fuente-menu: 1.2rem;
+    --fam-fuente-menu: Verdana, Geneva, Tahoma, sans-serif;
+    --col-fuente-menu: #FCA311;
+    --col-fondo-header: #14213D;
+    /*Con comillas, sin comillas..No va. */
+    font-family: 'Montserrat';
+    --fam--fuente: 'Montserrat';
+}
+/*=============================================
+=            estilos del header            =
+=============================================*/
+
+header{
+    display: flex;
+    gap: 7rem;
+    /* centrado vertical */
+    /* align-items: center; */
+    background-color: #14213D;
+}
+
+figure{
+    width: 130px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#menu-header{
+    display: flex;
+    /* centrado vertical */
+    align-items: center;
+}
+
+#menu-header ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+#menu-header ul li{
+    /* font-size: var(--tam-fuente-menu); */
+    font-family: var(--fam-fuente-menu);
+    /* color: var(--col-fuente-menu); */
+    text-transform: uppercase;
+    
+    /* probando un fondo para cada enlace, sin éxito */
+    /* width: 110px;
+    height: 50px;
+    background-color: black; */
+}
+
+#menu-header ul li a{
+    font-size: var(--tam-fuente-menu);
+    text-decoration: none;
+    color: var(--col-fuente-menu);
+    transition: color 1s, font-size 1s;
+}
+
+#menu-header ul li a:hover{
+    font-size: calc(var(--tam-fuente-menu)*1.1);
+    color: white;
+}
+/*=====  End of estilos del header  ======*/
+
+
+/*=============================================
+=            Estilos del main            =
+=============================================*/
+main{
+    background: url(../img/logo-emotions.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+}
+
+/*=====  End of estilos del main  ======*/
+
+
+

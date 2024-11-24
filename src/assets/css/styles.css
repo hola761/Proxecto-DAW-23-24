@@ -1,28 +1,50 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts.css');
+}
+
+
+/* Eliminando estilos por defecto navegadores */
 *, *::before, *::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Estilos generales a toda la página y variables */
 :root{
     --tam-fuente-menu: 1.2rem;
     --fam-fuente-menu: Verdana, Geneva, Tahoma, sans-serif;
     --col-fuente-menu: #FCA311;
+    --col-fondo-header: #14213d;
+    /*Con comillas, sin comillas..No va. */
+    font-family: 'Montserrat';
+    --fam--fuente: 'Montserrat';
 }
+
 /*=============================================
-=            estilos del header            =
+=            Estilos de móvil            =
+=============================================*/
+
+/*=============================================
+=            Estilos del header            =
 =============================================*/
 
 header{
-    display: flex;
-    gap: 7rem;
-    /* centrado vertical */
-    /* align-items: center; */
-    background-color: #14213D;
+    /*no funciona*/
+    flex-grow: 1;
 }
 
+#menu-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos logo header */
 figure{
-    width: 130px;
+    width: 90px;
 }
 
 img{
@@ -31,55 +53,160 @@ img{
     border-radius: 7px;
 }
 
-#menu-header{
-    display: flex;
-    /* centrado vertical */
-    align-items: center;
+/* Estilos icono menú hamburguesa */
+#icono-burguer{
+    font-size: 25px;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
-#menu-header ul{
-    display: flex;
+
+/* Estilos menú hamburguesa */
+#menu{
+    position: fixed;
+    width: 100%;
+    /*Se cambia 100vh por 0vh para ocular el menú entero
+    si no se pulsa el icono*/
+    height: 0vh;
+    top: 100px;
+    background: rgba(20, 30, 61, .95);
+    text-align: center;
     list-style: none;
-    gap: 4rem;
+    transition: all .5s;
 }
 
-#menu-header ul li{
-    /* font-size: var(--tam-fuente-menu); */
+#menu li{
+    /*Se cambia display block por none para ocultar
+    la lista del menú si no se pulsa el icono*/
+    display: none;
+    line-height: 30px;
+    margin: 50px;
+    transition: all .5s;
+}
+
+#menu li a{
     font-family: var(--fam-fuente-menu);
-    /* color: var(--col-fuente-menu); */
-    text-transform: uppercase;
-    
-    /* probando un fondo para cada enlace, sin éxito */
-    /* width: 110px;
-    height: 50px;
-    background-color: black; */
-}
-
-#menu-header ul li a{
-    font-size: var(--tam-fuente-menu);
-    text-decoration: none;
-    color: var(--col-fuente-menu);
-    transition: color 1s, font-size 1s;
-}
-
-#menu-header ul li a:hover{
-    font-size: calc(var(--tam-fuente-menu)*1.1);
     color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-/*=====  End of estilos del header  ======*/
+
+#menu li a.active, #menu li a:hover{
+    color: var(--col-fuente-menu);
+    transition: .3s;
+}
+
+
+/* Ocultando el checkbox */
+#check{
+    display: none;
+}
+
+
+/* Cuando se pulse el icono del menú hamburguesa
+se mostrará el menú... */
+#check:checked ~ #menu{
+    height: 100vh;
+}
+
+/* ...y la lista */
+#check:checked ~ #menu li{
+    display: block;
+}
+/*=====  End of Estilos del header  ======*/
 
 
 /*=============================================
-=            Estilos del main            =
+=            Estilos del body            =
 =============================================*/
-main{
-    background: url(../img/logo-emotions.jpg);
-    background-repeat: no-repeat;
-    height: 1000px;
-    width: 1000px;
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
-/*=====  End of estilos del main  ======*/
+main{
+    background: url(../img/logo-emotions.jpg);
+    opacity: 0.2;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    /*no funciona*/
+    flex-grow: 2;
+}
+
+#hola + button{
+    position: relative;
+    z-index: 1000;
+    opacity: 1;
+}
+/*=====  End of Estilos del body  ======*/
+
+/*=============================================
+=            Estilos del footer            =
+=============================================*/
+
+footer{
+    /*no funciona*/
+    flex-grow: 1;
+    height: 10vh;
+    background-color: var(--col-fondo-header);
+    color: var(--col-fuente-menu);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*=====  End of Estilos del footer  ======*/
+
+/*=====  End of Estilos de móvil  ======*/
 
 
+/*=============================================
+=            Media queries            =
+=============================================*/
 
+@media screen and (min-width: 768px) {
+    #menu-header{
+        height: 90px;
+    }
+
+    #icono-burguer{
+        display: none;
+    }
+
+    header{
+        background-color: var(--col-fondo-header);
+    }
+
+    #menu{
+        position: relative;
+        height: 90px;
+        top: 0;
+        text-align: right;
+    }
+
+    #menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        align-items: center;
+    }
+
+    #menu li a{
+        font-size: 16px;
+    }
+
+    footer{
+        justify-content: space-around;
+    }
+}
+
+/*=====  End of Media queries  ======*/
