@@ -25,6 +25,6 @@ Este documento inclúe os diferentes diagramas, esquemas e deseños que axudan a
 
 ## 4- Deseño de interface de usuarios
 
-**Url del prototipo, hecho en figma:**
+**Url do prototipo, feito con figma:**
 
 https://www.figma.com/proto/ZH5FWLcFQG5SyUmO7fsqlu/Prototipo-EmotionsApp?node-id=40-2&t=y3l9AkjIApySrb56-1

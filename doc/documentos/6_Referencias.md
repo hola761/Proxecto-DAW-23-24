@@ -10,7 +10,17 @@
 
 ## 1- Sitios web de documentación técnica
 
+https://www.php.net/manual/en/mysqli-stmt.get-result.php  
+
 ## 2- Fontes de interes
+
+https://programacion.net/articulo/como_devolver_datos_en_formato_json_desde_un_script_php_utilizando_jquery_ajax_1834  
+
+https://www.w3schools.com/Php/func_mysqli_fetch_all.asp   
+
+https://www.youtube.com/watch?v=Jwc6zju95us&t=109s  
+
+https://www.youtube.com/watch?v=QJfRtxxJ1TA  
 
 ## 3- Sitios oficiais do software utilizado
 
