@@ -1,0 +1,59 @@
+
+/* Página de estilos base importada */
+@import url(styles-base.css);
+
+
+/*=============================================
+= Estilos específicos de la página index.html =
+=============================================*/
+
+/*=============================================
+=            Estilos móvil            =
+=============================================*/
+
+.botones{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.botones a button{
+    background-color: var(--col-fondo-header);
+    color: var(--col-fuente-menu);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: var(--fam-fuente-menu);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.botones a button:hover{
+    color: var(--col-fondo-header);
+    background-color: var(--col-fuente-menu);
+    font-weight: bold;
+}
+
+/*=====  End of Estilos móvil  ======*/
+
+
+/*=============================================
+=            Media queries            =
+=============================================*/
+
+@media screen and (min-width: 768px){
+
+    .botones a button{
+        width: 350px;
+        transition: all .5s;
+    }
+}
+
+/*=====  End of Media queries  ======*/
+
+
+/*=====  End of Estilos específicos de la página index.html  ======*/

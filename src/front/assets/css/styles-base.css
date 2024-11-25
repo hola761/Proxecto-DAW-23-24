@@ -32,7 +32,7 @@
 
 header{
     /*no funciona*/
-    flex-grow: 1;
+    /* flex-grow: 1; */
     background-color: var(--col-fondo-header);
 }
 
@@ -92,6 +92,7 @@ img{
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all .5s;
 }
 
 #menu li a.active, #menu li a:hover{
@@ -126,23 +127,18 @@ se mostrará el menú... */
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main{
     background: url(../img/logo-emotions.png);
-    height: 80vh;
+    /* height: 80vh; */
     background-position: center;
     background-size: cover;
     /*no funciona*/
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
-/*no funciona*/
-#hola + button{
-    position: relative;
-    z-index: 1000;
-    opacity: 1;
-}
 /*=====  End of Estilos del body  ======*/
 
 /*=============================================
@@ -151,18 +147,21 @@ main{
 
 footer{
     /*no funciona*/
-    flex-grow: 1;
-    height: 10vh;
+    /* flex-grow: 1; */
+    /* height: 10vh; */
     background-color: var(--col-fondo-header);
     color: var(--col-fuente-menu);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all .5s;
 }
 
 footer p{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
+    font-family: var(--fam-fuente-menu);
+    transition: all .5s;
 }
 
 /*=====  End of Estilos del footer  ======*/
@@ -192,6 +191,7 @@ footer p{
         height: 90px;
         top: 0;
         text-align: right;
+        transition: all .3s;
     }
 
     #menu li{
@@ -199,14 +199,21 @@ footer p{
         line-height: 100px;
         margin: 0 20px;
         align-items: center;
+        transition: all .3s;
     }
 
     #menu li a{
         font-size: 16px;
+        transition: .3s;
     }
 
     footer{
         justify-content: space-around;
+    }
+
+    footer p{
+        font-size: 14px;
+        transition: .5s;
     }
 }
 
