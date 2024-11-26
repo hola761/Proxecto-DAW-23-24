@@ -132,10 +132,12 @@ body{
 
 main{
     background: url(../img/logo-emotions.png);
-    /* height: 80vh; */
     background-position: center;
     background-size: cover;
-    /*no funciona*/
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
     flex-grow: 1;
 }
 
