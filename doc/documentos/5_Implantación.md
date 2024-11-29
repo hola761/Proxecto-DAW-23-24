@@ -37,6 +37,8 @@
 
 ## 2- Manual de usuario
 
+Esta aplicación é moi sinxela de usar e non require de manual, nin de formación, salvo unha pequena explicación o día da súa implantación na empresa. E algunha mais no caso de engadirse mais funcións pero serían igual de sinxelas de usar.
+
 > *EXPLICACIÓN:* Neste apartado fara
 >
 > - Indicar se será necesario formar ós usuarios. En caso afirmativo planificar.
@@ -46,4 +48,7 @@
 
 ## 3- Melloras futuras
 
+-Implementación da parte adicada ós clientes.
+-Implementación do calendario de citas, tanto para a empresa como para os clientes.
+-Implementación da parte de compras de produtos.
 > *EXPLICACIÓN:* Neste apartado incluiranse as posibilidades de mellora da aplicación no futuro.
