@@ -1,5 +1,7 @@
 package com.proxecto_daw.emotionsApp.models;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -32,14 +34,27 @@ public class Usuario {
     @Column(name="c_usuario")
     private String cUsuario;
 
+    /*Relación con la tabla rol */
     @ManyToOne
     @JoinColumn(name="id_rol")
     private Rol rol;
 
+    /*Relación con la tabla coche */
+    @OneToMany(mappedBy = "usuario")
+    private List<Coche> coches;
+
+    /*Relación con la tabla s_aplica_c */
+    @OneToMany(mappedBy = "usuario")
+    private List<S_aplica_c> serviciosAplicadosCoche;
+
+    /*Relación tabla u_realiza_s */
+    @OneToMany(mappedBy = "usuario")
+    private List<U_realiza_s> usuariosRealizanServicios;
+
     public Usuario() {
     }
 
-    public Usuario(Long id, String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol) {
+    public Usuario(Long id, String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol, List<Coche> coches, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
         this.id = id;
         this.dni = dni;
         this.nombre = nombre;
@@ -49,9 +64,12 @@ public class Usuario {
         this.nUsuario = nUsuario;
         this.cUsuario = cUsuario;
         this.rol = rol;
+        this.coches = coches;
+        this.serviciosAplicadosCoche = serviciosAplicadosCoche;
+        this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
 
-    public Usuario(String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol) {
+    public Usuario(String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol, List<Coche> coches, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
         this.dni = dni;
         this.nombre = nombre;
         this.telefono = telefono;
@@ -60,8 +78,10 @@ public class Usuario {
         this.nUsuario = nUsuario;
         this.cUsuario = cUsuario;
         this.rol = rol;
+        this.coches = coches;
+        this.serviciosAplicadosCoche = serviciosAplicadosCoche;
+        this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
-
 
     public Long getId() {
         return this.id;
@@ -135,6 +155,30 @@ public class Usuario {
         this.rol = rol;
     }
 
+    public List<Coche> getCoches() {
+        return this.coches;
+    }
+
+    public void setCoches(List<Coche> coches) {
+        this.coches = coches;
+    }
+
+    public List<S_aplica_c> getServiciosAplicadosCoche() {
+        return this.serviciosAplicadosCoche;
+    }
+
+    public void setServiciosAplicadosCoche(List<S_aplica_c> serviciosAplicadosCoche) {
+        this.serviciosAplicadosCoche = serviciosAplicadosCoche;
+    }
+
+    public List<U_realiza_s> getUsuariosRealizanServicios() {
+        return this.usuariosRealizanServicios;
+    }
+
+    public void setUsuariosRealizanServicios(List<U_realiza_s> usuariosRealizanServicios) {
+        this.usuariosRealizanServicios = usuariosRealizanServicios;
+    }
+
     @Override
     public String toString() {
         return "{" +
@@ -147,6 +191,9 @@ public class Usuario {
             ", nUsuario='" + getNUsuario() + "'" +
             ", cUsuario='" + getCUsuario() + "'" +
             ", rol='" + getRol() + "'" +
+            ", coches='" + getCoches() + "'" +
+            ", serviciosAplicadosCoche='" + getServiciosAplicadosCoche() + "'" +
+            ", usuariosRealizanServicios='" + getUsuariosRealizanServicios() + "'" +
             "}";
     }
 }

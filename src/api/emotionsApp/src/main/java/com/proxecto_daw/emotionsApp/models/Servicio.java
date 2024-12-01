@@ -5,69 +5,68 @@ import java.util.List;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="rol")
-public class Rol {
+@Table(name = "servicio")
+public class Servicio {
 
     @Id
-    @Column(name="id_rol")
+    @Column(name = "id_servicio")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idRol;
+    private Long id;
 
-    @Column(name="rol")
-    private String rol;
+    @Column(name = "nombre")
+    private String nombre;
 
-    /*Relación con la tabla usuario */
-    @OneToMany(mappedBy="rol")
-    private List<Usuario> usuarios;
+    @Column(name = "precio")
+    private double precio;
 
     /*Relación con la tabla s_aplica_c */
-    @OneToMany(mappedBy = "rol")
+    @OneToMany(mappedBy = "usuario")
     private List<S_aplica_c> serviciosAplicadosCoche;
 
     /*Relación tabla u_realiza_s */
-    @OneToMany(mappedBy = "rol")
+    @OneToMany(mappedBy = "servicio")
     private List<U_realiza_s> usuariosRealizanServicios;
 
-    public Rol() {
+    public Servicio() {
     }
 
-    public Rol(Long idRol, String rol, List<Usuario> usuarios, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
-        this.idRol = idRol;
-        this.rol = rol;
-        this.usuarios = usuarios;
+    public Servicio(Long id, String nombre, double precio, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
+        this.id = id;
+        this.nombre = nombre;
+        this.precio = precio;
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
         this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
 
-    public Rol(String rol, List<Usuario> usuarios, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
-        this.rol = rol;
-        this.usuarios = usuarios;
+    public Servicio(String nombre, double precio, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
+        this.nombre = nombre;
+        this.precio = precio;
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
         this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
 
-    public Long getIdRol() {
-        return this.idRol;
+    public Long getId() {
+        return this.id;
     }
 
-    public void setIdRol(Long idRol) {
-        this.idRol = idRol;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getRol() {
-        return this.rol;
+    public String getNombre() {
+        return this.nombre;
     }
 
-    public void setRol(String rol) {
-        this.rol = rol;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public List<Usuario> getUsuarios() {
-        return this.usuarios;
+    public double getPrecio() {
+        return this.precio;
     }
 
-    public void setUsuarios(List<Usuario> usuarios) {
-        this.usuarios = usuarios;
+    public void setPrecio(double precio) {
+        this.precio = precio;
     }
 
     public List<S_aplica_c> getServiciosAplicadosCoche() {
@@ -89,9 +88,9 @@ public class Rol {
     @Override
     public String toString() {
         return "{" +
-            " idRol='" + getIdRol() + "'" +
-            ", rol='" + getRol() + "'" +
-            ", usuarios='" + getUsuarios() + "'" +
+            " id='" + getId() + "'" +
+            ", nombre='" + getNombre() + "'" +
+            ", precio='" + getPrecio() + "'" +
             ", serviciosAplicadosCoche='" + getServiciosAplicadosCoche() + "'" +
             ", usuariosRealizanServicios='" + getUsuariosRealizanServicios() + "'" +
             "}";
