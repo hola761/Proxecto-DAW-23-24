@@ -159,7 +159,7 @@ footer{
     transition: all .5s;
 }
 
-footer p{
+footer p, footer section{
     font-size: 12px;
     text-align: center;
     font-family: var(--fam-fuente-menu);
