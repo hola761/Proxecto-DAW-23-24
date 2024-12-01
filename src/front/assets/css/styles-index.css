@@ -20,7 +20,11 @@
     gap: 5rem;
 }
 
-.botones a button{
+.botones a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     background-color: var(--col-fondo-header);
     color: var(--col-fuente-menu);
     width: 200px;
@@ -32,10 +36,11 @@
     transition: all .5s;
 }
 
-.botones a button:hover{
+.botones a:hover{
     color: var(--col-fondo-header);
     background-color: var(--col-fuente-menu);
     font-weight: bold;
+    border: 2px solid var(--col-fondo-header);
 }
 
 /*=====  End of Estilos móvil  ======*/
