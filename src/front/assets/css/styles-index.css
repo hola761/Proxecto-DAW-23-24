@@ -27,6 +27,13 @@ fieldset{
     background-color: rgba(20, 30, 61, .95);   
 }
 
+h1{
+    font-family: var(--fam-fuente-menu);
+    font-size: 20px;
+    color: var(--col-fuente-menu);
+    margin-bottom: 20px;
+}
+
 p label, input.boton{
     font-family: var(--fam-fuente-menu);
     color: white;
@@ -48,6 +55,10 @@ input[type = "submit"]{
 input[type="submit"]:hover{
     background-color: bisque;
     border: 2px solid var(--col-fuente-menu);
+}
+
+.controles{
+    margin-bottom: 20px;
 }
 
 .controles label, .controles input{
