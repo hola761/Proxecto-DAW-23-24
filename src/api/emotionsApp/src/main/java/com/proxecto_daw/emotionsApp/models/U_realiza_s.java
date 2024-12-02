@@ -11,6 +11,7 @@ public class U_realiza_s {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_u_realiza_s")
     private Long id;
 
     /*Relación tabla usuario */

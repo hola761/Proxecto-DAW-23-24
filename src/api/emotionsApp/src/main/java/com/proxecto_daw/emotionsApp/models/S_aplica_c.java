@@ -13,6 +13,7 @@ public class S_aplica_c {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_s_aplica_c")
     private Long id;
 
     /*Relación tabla coche */

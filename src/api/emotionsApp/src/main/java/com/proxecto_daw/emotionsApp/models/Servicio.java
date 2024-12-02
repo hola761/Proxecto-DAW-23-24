@@ -20,7 +20,7 @@ public class Servicio {
     private double precio;
 
     /*Relación con la tabla s_aplica_c */
-    @OneToMany(mappedBy = "usuario")
+    @OneToMany(mappedBy = "servicio")
     private List<S_aplica_c> serviciosAplicadosCoche;
 
     /*Relación tabla u_realiza_s */
