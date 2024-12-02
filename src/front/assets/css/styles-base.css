@@ -1,8 +1,10 @@
+
+/*Hay que descargar los archivos de las fuentes para que funcione.
+TAREA PENDIENTE!!*/
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts.css');
 }
-
 
 /* Eliminando estilos por defecto navegadores */
 *, *::before, *::after{
@@ -31,8 +33,6 @@
 =============================================*/
 
 header{
-    /*no funciona*/
-    /* flex-grow: 1; */
     background-color: var(--col-fondo-header);
 }
 
@@ -148,8 +148,6 @@ main{
 =============================================*/
 
 footer{
-    /*no funciona*/
-    /* flex-grow: 1; */
     /* height: 10vh; */
     background-color: var(--col-fondo-header);
     color: var(--col-fuente-menu);
