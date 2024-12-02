@@ -21,7 +21,7 @@
 Proxecto en fase de desenrolo.
 
 ## Descrición
-
+ 
 > *EXPLICACIÓN*: Realiza unha breve descrición do proxecto. Non menos de 100 palabras e non máis de 300. Resalta o fundamental *coas túas propias palabras**. Utiliza unha linguaxe correcta, *pero natural**, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.
 > Descrición básica das ferramentas/tecnoloxías/linguaxes de programación,... empregados.
 
@@ -32,7 +32,8 @@ Aplicación web de axuda de xestión de negocios pequenos.
 -JavaScript  
 - Tecnoloxías ou lenguaxes empregados para a realización do back-end:  
 -SQL  
--PHP  
+-PHP
+-Java  
 
 ## Instalación / Posta en marcha
 
@@ -41,12 +42,15 @@ Aplicación web de axuda de xestión de negocios pequenos.
 Para a posta en marcha de proxecto é necesario executar o script de creación da base de datos e inserción dos datos de proba. Premendo no seguinte enlace abrirase o devandito documento:  
 [Prema aquí para abrir o script de creación da base de datos](/doc/script_bd/script_creacion_BD.sql)  
 
-Tamén serán necesarias...(mais cousas ainda por determinar).
+O servidor necesario para a BD é mysql. Se se desexa cambiar de servidor será necesario facer diversas modificacións, como as relativas ó script de creación e á api: habería que cambiar os datos de conexión atopados no archivo 'application-properties'. É recomendable empregar un servidor mysql para facilidade e rapidez.
 
 ## Uso
 
 > *EXPLICACIÓN*: É este apartado describe brevemente como se usará a aplicación Web do proxecto. Describe o uso da interface web *só o uso** (a modo de sumario) *dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, coma se fose un anuncio reclamo ou comercial).
 >
+
+Cun menú intuitivo e fácil de usar, poderase acceder a listas de clientes, servizos e coches e facer unha rápida búsqueda para acceder ós detalles de cada un.
+Ca mesma facilidade poderase engadir, actualizar e eliminar o que se desexe.  
 
 ## Sobre o autor
 
