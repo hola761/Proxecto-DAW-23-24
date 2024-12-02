@@ -11,44 +11,29 @@
 
 ### 1.1- Instalación
 
-> *EXPLICACIÓN:* Neste apartado describiranse todos os pasos necesarios para que calquera persoa poida descargar o código do proxecto e continuar o seu desenvolvemento.
->
-> Como:
-> 
-> - Requirimentos de hardware, servidores na nube, etc.
-> - Software necesario: servidores (Exemplo servidor Web), software externo co que interaciona a nosa aplicación, contenedores, etc.
-> - Carga inicial de datos na base de datos. Migración de datos xa existentes noutros formatos.
-> - Usuarios da aplicación.
-> - Diagrama final de despregue (se hai variacións con respecto ó realizado na anterior fase).
+Para todo aquel que desexe continuar con este proxecto, estes son os pasos que debe seguir:
+
+ - Descargar e executar o script de creación e engadido de datos de proba atopado na seguinte carpeta: [Carpeta onde se atopa o script](../script_bd)  
+O script é para unha base de datos mysql, no caso de escoller empregar outro servidor de BD será necesario facer os cambios pertinentes no código.  
+ - Descargar o código atopado na carpeta: [Carpeta onde se atopa o código da aplicación feito ata o momento](/src)  
+Nesta carpeta atópase tanto o código do front-end como o do back-end.
+ - Para o despregue da aplicación será necesario un servidor, contenedor ou a tecnoloxía que se desexe empregar.  
 
 ### 1.2- Administración do sistema
 
-> *EXPLICACIÓN:* Neste apartado indicarase información relativa á administración do sistema, é dicir, tarefas que se deberán realizar unha vez que o sistema estea funcionando.
->
-> Como:
-> 
-> - Copias de seguridade do sistema.
-> - Copias de seguridade da base de datos.
-> - Xestión de usuarios.
-> - Xestión seguridade.
-> - Xestión de incidencias, que poden ser de dous tipos: de sistema (accesos non autorizados á BD, etc) ou de fallos no software.
->
-> No caso de que sexan precisas.
+En relación coa administración do sistema será necesario levar a cabo as seguintes tarefas:
+
+ - Copia de seguridade do sistema.
+ - Copia de seguridade da base de datos.
+ - Xestión de incidencias que poidan xurdir co emprego da aplicación. Tanto de sistema, como intentos de acceso non autorizados á BD como fallos no software non atopados nas probas relativas feitas antes da entrega da mesma.
 
 ## 2- Manual de usuario
 
-Esta aplicación é moi sinxela de usar e non require de manual, nin de formación, salvo unha pequena explicación o día da súa implantación na empresa. E algunha mais no caso de engadirse mais funcións pero serían igual de sinxelas de usar.
-
-> *EXPLICACIÓN:* Neste apartado fara
->
-> - Indicar se será necesario formar ós usuarios. En caso afirmativo planificar.
-> - Manual de usuario, FAQ ou outro xeito que sexa o máis adecuado para que os usuarios saiban usar a nosa aplicación informática.
->
-> Todo esto se a aplicación require de manual de usuario.
+Esta aplicación é moi sinxela de usar e non require de manual, nin de formación, salvo unha pequena explicación o día da súa implantación na empresa. E algunha mais no caso de engadirse mais funcións pero serían igual de sinxelas de empregar.
 
 ## 3- Melloras futuras
 
--Implementación da parte adicada ós clientes.
+-Implementación da aplicación adicada ós clientes.
 -Implementación do calendario de citas, tanto para a empresa como para os clientes.
--Implementación da parte de compras de produtos.
-> *EXPLICACIÓN:* Neste apartado incluiranse as posibilidades de mellora da aplicación no futuro.
+-Implementación da parte de compras de produtos, tanto para a empresa para que poidan engadir con sinxeleza e rapidez os produtos como para os clientes, que poidan ver nos seus dispositivos os produtos ofrecidos pola empresa para a súa compra.
+

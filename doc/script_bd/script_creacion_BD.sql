@@ -53,28 +53,32 @@ alter table servicio modify column id_servicio int not null AUTO_INCREMENT;
 
 /*Crear tabla relación servicio-coche*/
 create table s_aplica_c(
+	id_s_aplica_c int not null,
 	id_coche int not null,
     id_usuario int not null,
     id_rol int not null,
     id_servicio int not null,
     fecha timestamp not null default current_timestamp
 );
-alter table s_aplica_c add constraint pk_s_aplica_c primary key (id_coche, id_usuario, id_rol, id_servicio);
+alter table s_aplica_c add constraint pk_s_aplica_c primary key (id_s_aplica_c);
 alter table s_aplica_c add constraint fk_s_aplica_c_coche foreign key s_aplica_c (id_coche) references coche (id_coche);
 alter table s_aplica_c add constraint fk_s_aplica_c_usuario foreign key s_aplica_c (id_usuario) references usuario (id_usuario);
 alter table s_aplica_c add constraint fk_s_aplica_c_rol foreign key s_aplica_c (id_rol) references rol (id_rol);
 alter table s_aplica_c add constraint fk_s_aplica_c_servicio foreign key s_aplica_c (id_servicio) references servicio (id_servicio);
+alter table s_aplica_c modify column id_s_aplica_c int not null AUTO_INCREMENT;
 
 /*Crear tabla relación usuario-servicio*/
 create table u_realiza_s(
+	id_u_realiza_s int not null,
 	id_usuario int not null,
     id_rol int not null,
     id_servicio int not null
 );
-alter table u_realiza_s add constraint pk_u_realiza_s primary key (id_usuario, id_rol, id_servicio);
+alter table u_realiza_s add constraint pk_u_realiza_s primary key (id_u_realiza_s);
 alter table u_realiza_s add constraint fk_u_realiza_s_usuario foreign key u_realiza_s (id_usuario) references usuario (id_usuario);
 alter table u_realiza_s add constraint fk_u_realiza_s_rol foreign key u_realiza_s (id_rol) references rol (id_rol);
 alter table u_realiza_s add constraint fk_u_realiza_s_servicio foreign key u_realiza_s (id_servicio) references servicio (id_servicio);
+alter table u_realiza_s modify column id_u_realiza_s int not null AUTO_INCREMENT;
 
 /*INSERCIÓN DE DATOS DE PRUEBA*/
 /*Datos de prueba tabla rol*/
@@ -97,9 +101,9 @@ insert into servicio (nombre, precio)
 values ("limpieza exterior", 20.00), ("limpieza interior", 30.00);
 
 /*Datos de prueba tabla relación servicio-coche*/
-insert into s_aplica_c (id_coche, id_usuario, id_rol, id_servicio)
-values (1, 3, 3, 1), (2, 4, 3, 2);
+insert into s_aplica_c (id_s_aplica_c, id_coche, id_usuario, id_rol, id_servicio)
+values (1, 1, 3, 3, 1), (2, 2, 4, 3, 2);
 
 /*Datos de prueba tabla relación usuario-servicio*/
-insert into u_realiza_s (id_usuario, id_rol, id_servicio)
-values (1, 1, 1), (2, 2, 2);
+insert into u_realiza_s (id_u_realiza_s, id_usuario, id_rol, id_servicio)
+values (1, 1, 1, 1), (2, 2, 2, 2);
