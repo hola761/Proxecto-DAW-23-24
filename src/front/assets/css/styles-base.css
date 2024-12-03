@@ -6,6 +6,11 @@ TAREA PENDIENTE!!*/
     src: url('fonts.css');
 }
 
+
+/*=============================================
+=    Estilos comunes a todas las páginas      =
+=============================================*/
+
 /* Eliminando estilos por defecto navegadores */
 *, *::before, *::after{
     box-sizing: border-box;
@@ -173,6 +178,10 @@ footer p, footer section{
 =            Media queries            =
 =============================================*/
 
+/*=============================================
+=            Táblet y pantalla normal            =
+=============================================*/
+
 @media screen and (min-width: 768px) {
     #menu-header{
         height: 90px;
@@ -216,5 +225,27 @@ footer p, footer section{
         transition: .5s;
     }
 }
+/*=====  End of Táblet y pantalla normal  ======*/
+
+/*=============================================
+=     Media querie pantallas muy grandes      =
+=============================================*/
+
+@media screen and (min-width: 1400px) {
+    html{
+        background-color: var(--col-fondo-header);
+    }
+    
+    body{
+        background-color: #fff;
+        max-width: 80%;
+        margin: 0 auto;
+        box-shadow: 0 5px 15px 7px;
+    }
+}
+
+/*=====  End of Media querie pantallas muy grande  ======*/
 
 /*=====  End of Media queries  ======*/
+
+/*=====  End of Estilos comunes a todas las páginas  ======*/

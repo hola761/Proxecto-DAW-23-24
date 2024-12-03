@@ -27,7 +27,7 @@
     text-decoration: none;
     background-color: var(--col-fondo-header);
     color: var(--col-fuente-menu);
-    width: 200px;
+    width: 30vh;
     height: 50px;
     border-radius: 10px;
     font-family: var(--fam-fuente-menu);
@@ -52,8 +52,8 @@
 
 @media screen and (min-width: 768px){
 
-    .botones a button{
-        width: 350px;
+    .botones a{
+        width: 50vh;
         transition: all .5s;
     }
 }

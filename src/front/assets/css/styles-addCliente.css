@@ -11,34 +11,40 @@
 =            Estilos móvil            =
 =============================================*/
 
-div#fondo{
+fieldset#fondo{
     background-color: #D9D9D9;
     min-height: 60vh;
     min-width: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-family: var(--fam-fuente-menu);
     border-radius: 10px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px var(--col-fondo-header);
 }
 
-form input{
-    width: 120px;
-    height: 30px;
-    /*no funciona*/
-    justify-content: end;
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
+fieldset p:first-of-type{
+    margin-top: 10px;
 }
+
+fieldset p:last-of-type{
+    margin-bottom: 10px;
+}
+
+.controles input, .controles label{
+    display: block;
+    width: 30vh;
+    height: 30px;
+}
+
+.controles input{
+    box-shadow: 2px 2px 5px var(--col-fondo-header);
+    border: none;
+}
+
 .boton{
     display: flex;
     align-items: center;
@@ -46,7 +52,7 @@ form input{
     text-decoration: none;
     background-color: var(--col-fondo-header);
     color: var(--col-fuente-menu);
-    width: 220px;
+    width: 30vh;
     height: 50px;
     border-radius: 10px;
     font-family: var(--fam-fuente-menu);
@@ -54,6 +60,8 @@ form input{
     cursor: pointer;
     transition: all .5s;
     font-size: 12px;
+    box-shadow: 5px 5px 10px var(--col-fondo-header);
+    border: none;
 }
 
 a:hover, input[type="submit"]:hover{
@@ -62,24 +70,34 @@ a:hover, input[type="submit"]:hover{
     font-weight: bold;
     border: 2px solid var(--col-fondo-header);
 }
-/* .boton{
-    text-decoration: none;
-    background-color: var(--col-fondo-header);
-    color: var(--col-fuente-menu);
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: var(--fam-fuente-menu);
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all .5s;
-} */
 
 /*=====  End of Estilos móvil  ======*/
 
 
-/* FALTAN LAS MEDIA QUERIES */
+/*=============================================
+=            Media queries            =
+=============================================*/
 
+/*=============================================
+=            Táblet y pantalla normal            =
+=============================================*/
+
+@media screen and (min-width: 768px) {
+    fieldset#fondo{
+        width: 60vh;
+        gap: 30px;
+    }
+    .boton{
+        width: 50vh;
+    }
+    .controles label, .controles input{
+        width: 50vh;
+    }
+}
+
+/*=====  End of Táblet y pantalla normal  ======*/
+
+/*=====  End of Media queries  ======*/
 
 /*=====  End of Estilos específicos de la página addCliente  ======*/
 

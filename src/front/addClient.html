@@ -39,22 +39,23 @@
         <!-- Cambiar este div por un fieldset dentro del form,
          para darle el fondo a todo el formulario. Creo que queda mejor
          y es más correcto hacerlo así. Creo. -->
-        <div id="fondo" role="fondo-main">
-            <form action="#">
-                <p>
-                    <label for="dni">DNI: </label>
+        <!-- <div id="fondo" role="fondo-main"> -->
+        <form action="#">
+            <fieldset id="fondo">
+                <p class="controles">
+                    <label for="dni">DNI </label>
                     <input type="text" name="dni" id="dni" />
                 </p>
-                <p>
-                    <label for="nombre">Nombre: </label>
+                <p class="controles">
+                    <label for="nombre">Nombre </label>
                     <input type="text" name="nombre" id="nombre">
                 </p>
-                <p>
-                    <label for="telefono">Teléfono: </label>
+                <p class="controles">
+                    <label for="telefono">Teléfono </label>
                     <input type="text" name="telefono" id="telefono">
                 </p>
-                <p>
-                    <label for="email">Email: </label>
+                <p class="controles">
+                    <label for="email">Email </label>
                     <input type="text" name="email" id="email">
                 </p>
                 <p>
@@ -67,8 +68,9 @@
                 <p>
                     <a href="inicio.html" class="boton">Salir sin guardar</a>
                 </p>
-            </form>
-        </div>
+            </fieldset>
+        </form>
+        <!-- </div> -->
     </main>
     <footer>
         <div id="derecha">
