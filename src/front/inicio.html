@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="assets/css/styles-inicio.css">
-        <script src="https://kit.fontawesome.com/1baaddf7ae.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <header>
-            <nav id="menu-header">
-                <figure>
-                    <a href="inicio.html">
-                        <img src="assets/img/logo-emotions.jpg" alt="">
-                    </a>
-                </figure>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles-inicio.css">
+    <script src="https://kit.fontawesome.com/1baaddf7ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="menu-header">
+            <figure>
+                <a href="inicio.html">
+                    <img src="assets/img/logo-emotions.jpg" alt="">
+                </a>
+            </figure>
             <input type="checkbox" id="check">
             <label for="check" id="icono-burguer">
                 <i class="fas fa-bars"></i>
             </label>
-                <ul id="menu">
-                    <!-- A la lista de clientes -->
-                <li><a class="active" href="#">Clientes</a></li>
+            <ul id="menu">
+                <!-- Al menú de añadir clientes y coches -->
+                <li><a class="active" href="inicio.html">Añadir</a></li>
+                <!-- A la lista de clientes -->
+                <li><a href="listadoClientes.html">Clientes</a></li>
                 <!-- A la lista de coches -->
                 <li><a href="#">Coches</a></li>
                 <!-- A la lista de servicios -->
@@ -31,26 +34,26 @@
                 <li><a href="#">Buscar</a></li>
                 <!-- Cerrar sesión -->
                 <li><a href="#">Salir</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="botones">
-                <a href="addClient.html">Añadir cliente</a>
-                <a href="#">Añadir coche</a>
-            </section>
-        </main>
-        <footer>
-            <section id="derecha">
-                <address>Av. Rosalía de Castro, 51</address>
-                <address>15960 Ribeira. A Coruña</address>
-            </section>
-            <p id="centro">Emotions.SL.</p>
-            <section id="izquierda">
-                <address>Tlf:</address>
-                <address>675 984 018</address>
-            </section>
-        </footer>
-    </body>
-    
-    </html>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="botones">
+            <a href="addClient.html">Añadir cliente</a>
+            <a href="#">Añadir coche</a>
+        </section>
+    </main>
+    <footer>
+        <div id="derecha">
+            <address>Av. Algún Sitio, 35</address>
+            <address>15960 Ribeira. A Coruña</address>
+        </div>
+        <p id="centro">Emotions.SL.</p>
+        <div id="izquierda">
+            <address>Tlf:</address>
+            <address>666 999 000</address>
+        </div>
+    </footer>
+</body>
+
+</html>

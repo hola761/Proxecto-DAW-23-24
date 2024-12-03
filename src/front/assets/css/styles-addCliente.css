@@ -12,7 +12,7 @@
 =============================================*/
 
 fieldset#fondo{
-    background-color: #D9D9D9;
+    background-color: rgba(217, 217, 217, .75);
     min-height: 60vh;
     min-width: 40vh;
     display: flex;
@@ -64,7 +64,7 @@ fieldset p:last-of-type{
     border: none;
 }
 
-a:hover, input[type="submit"]:hover{
+#fondo a:hover, input[type="submit"]:hover{
     color: var(--col-fondo-header);
     background-color: var(--col-fuente-menu);
     font-weight: bold;
