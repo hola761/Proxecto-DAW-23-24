@@ -26,13 +26,13 @@ Proxecto en fase de desenrolo.
 > Descrición básica das ferramentas/tecnoloxías/linguaxes de programación,... empregados.
 
 Aplicación web de axuda de xestión de negocios pequenos.  
-- Tecnoloxías ou lenguaxes empregados para a realización do front-end:  
+- Tecnoloxías ou linguaxes empregados para a realización do front-end:  
 -HTML  
 -CSS  
 -JavaScript  
-- Tecnoloxías ou lenguaxes empregados para a realización do back-end:  
+- Tecnoloxías ou linguaxes empregados para a realización do back-end:  
 -SQL  
--PHP
+-PHP  
 -Java  
 
 ## Instalación / Posta en marcha
