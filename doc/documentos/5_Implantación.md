@@ -33,7 +33,7 @@ Esta aplicación é moi sinxela de usar e non require de manual, nin de formaci�
 
 ## 3- Melloras futuras
 
--Implementación da aplicación adicada ós clientes.
--Implementación do calendario de citas, tanto para a empresa como para os clientes.
--Implementación da parte de compras de produtos, tanto para a empresa para que poidan engadir con sinxeleza e rapidez os produtos como para os clientes, que poidan ver nos seus dispositivos os produtos ofrecidos pola empresa para a súa compra.
+ - Implementación da aplicación adicada ós clientes.  
+ - Implementación do calendario de citas, tanto para a empresa como para os clientes.  
+ - Implementación da parte de compras de produtos, tanto para a empresa para que poidan engadir con sinxeleza e rapidez os produtos como para os clientes, que poidan ver nos seus dispositivos os produtos ofrecidos pola empresa para a súa compra.
 
