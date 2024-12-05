@@ -136,7 +136,7 @@ body{
 }
 
 main{
-    background: url(../img/logo-emotions.png);
+    background: url(/src/front/assets/img/logo-emotions.png);
     background-position: center;
     background-size: cover;
     display: flex;
