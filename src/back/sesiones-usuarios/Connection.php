@@ -1,7 +1,7 @@
 <?php
     $host="localhost";
     $user="root";
-    $pass="hola456*losaDA98.";
+    $pass="";
     $bd="proxectodaw";
 
     $con = new mysqli($host, $user, $pass);
