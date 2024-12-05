@@ -16,7 +16,7 @@
                 <?php 
                     if (isset($_REQUEST['error'])) {
                 ?>
-                    <p>
+                    <p id="error">
                         <?php echo $_REQUEST['error'];?>
                     </p>
                 <?php
