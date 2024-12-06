@@ -220,7 +220,7 @@ footer p, footer section{
         justify-content: space-around;
     }
 
-    footer p{
+    footer p, footer address{
         font-size: 14px;
         transition: .5s;
     }

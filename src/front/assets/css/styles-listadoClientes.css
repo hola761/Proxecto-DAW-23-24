@@ -68,6 +68,11 @@ table#movil tbody tr td:last-child {
   border-radius: 10px;
   cursor: pointer;
 }
+
+table#movil tbody tr td:last-child a{
+    text-decoration: none;
+    color: #000000;
+}
 /*=====  End of Estilos móvil  ======*/
 
 /*=============================================
@@ -142,6 +147,13 @@ table#movil tbody tr td:last-child {
       box-shadow: 2px 2px 5px #000000;
       width: 60px;
       text-align: center;
+    }
+
+    table#web tbody td.ver a,
+    table#web tbody td.actualizar a,
+    table#web tbody td.eliminar a{
+        text-decoration: none;
+        color: #000000;
     }
   }
 
