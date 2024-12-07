@@ -12,6 +12,10 @@
 
 https://www.php.net/manual/en/mysqli-stmt.get-result.php  
 
+https://spring.io/guides/gs/accessing-data-rest  
+
+https://docs.spring.io/spring-data/rest/reference/customizing/configuring-cors.html  
+
 ## 2- Fontes de interes
 
 https://programacion.net/articulo/como_devolver_datos_en_formato_json_desde_un_script_php_utilizando_jquery_ajax_1834  
@@ -22,6 +26,12 @@ https://www.youtube.com/watch?v=Jwc6zju95us&t=109s
 
 https://www.youtube.com/watch?v=QJfRtxxJ1TA  
 
+https://www.youtube.com/watch?v=O750f-NzKHc  
+
 ## 3- Sitios oficiais do software utilizado
+
+https://www.apachefriends.org/es/index.html    
+
+https://spring.io/projects/spring-data-rest  
 
 ## 4- Normas ou documentos legais
