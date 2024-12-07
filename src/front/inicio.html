@@ -2,58 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicio</title>
-    <link rel="stylesheet" href="assets/css/styles-inicio.css">
-    <script src="https://kit.fontawesome.com/1baaddf7ae.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página inicio</title>
+  <link rel="stylesheet" href="assets/css/styles-corregido.css">
+  <script src="https://kit.fontawesome.com/1baaddf7ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav id="menu-header">
-            <figure>
-                <a href="inicio.html">
-                    <img src="assets/img/logo-emotions.jpg" alt="">
-                </a>
-            </figure>
-            <input type="checkbox" id="check">
-            <label for="check" id="icono-burguer">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul id="menu">
-                <!-- Al menú de añadir clientes y coches -->
-                <li><a class="active" href="inicio.html">Añadir</a></li>
-                <!-- A la lista de clientes -->
-                <li><a href="listadoClientes.html">Clientes</a></li>
-                <!-- A la lista de coches -->
-                <li><a href="#">Coches</a></li>
-                <!-- A la lista de servicios -->
-                <li><a href="#">Servicios</a></li>
-                <!-- Al buscador -->
-                <li><a href="#">Buscar</a></li>
-                <!-- Cerrar sesión -->
-                <li><a href="../back/sesiones-usuarios/CerrarSesion.php">Salir</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="botones">
-            <a href="addClient.html">Añadir cliente</a>
-            <a href="#">Añadir coche</a>
-        </section>
-    </main>
-    <footer>
-        <section id="derecha">
-            <address>Av. Algún Sitio, 35</address>
-            <address>15960 Ribeira. A Coruña</address>
-        </section>
-        <p id="centro">Emotions.SL.</p>
-        <section id="izquierda">
-            <address>Tlf:</address>
-            <address>666 999 000</address>
-        </section>
-    </footer>
+  <header>
+    <nav id="menu-header">
+      <a href="inicio.html" class="logo">
+        <img src="assets/img/logo-emotions.jpg" alt="">
+      </a>
+      <input type="checkbox" id="check">
+      <label for="check" id="icono-burguer">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul id="menu">
+        <!-- Al menú de añadir clientes y coches -->
+        <li><a class="active" href="inicio.html">Añadir</a></li>
+        <!-- A la lista de clientes -->
+        <li><a href="listadoClientes.html">Clientes</a></li>
+        <!-- A la lista de coches -->
+        <li><a href="#">Coches</a></li>
+        <!-- A la lista de servicios -->
+        <li><a href="#">Servicios</a></li>
+        <!-- Al buscador -->
+        <li><a href="#">Buscar</a></li>
+        <!-- Cerrar sesión -->
+        <li><a href="../back/sesiones-usuarios/CerrarSesion.php">Salir</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="centrado">
+    <section class="botones">
+      <a href="addClient.html" class="boton">Añadir cliente</a>
+      <a href="#" class="boton">Añadir coche</a>
+    </section>
+  </main>
+  <footer>
+    <address id="derecha">
+      <p>Av. Rosalía de Castro, 51</p>
+      <p>15960 Ribeira. A Coruña</p>
+      <p>Teléfono: 675 984 01</p>
+      <p>Email: correo@emotions.com</p>
+    </address>
+    <p id="centro">Emotions.SL.</p>
+
+    <ul id="redes">
+      <li><a href="tel:+675 984 018"><i class="fas fa-phone"></i></i></a></li>
+      <li><a href="mailto:correo@emotions.com"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="" aria-label="Enlace a la página de facebook"><i class="fa fa-facebook"></i></a></li>
+    </ul>
+  </footer>
 </body>
 
 </html>

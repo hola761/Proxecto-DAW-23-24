@@ -1,0 +1,413 @@
+/* @font-face {
+  font-family: "Montserrat";
+  src: url("fonts.css");
+} */
+/* Fuente Assistant */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+/* Eliminando estilos por defecto navegadores */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales a toda la página y variables */
+:root {
+  --tam-fuente-menu: 1.2rem;
+  --fam-fuente-menu: Verdana, Geneva, Tahoma, sans-serif;
+  --fam--fuente: "Assistant", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  --col-fuente-menu: #fca311;
+  --col-fondo-header: #14213d;
+  --col-fondo-claro: #14213da2;
+  /*Con comillas, sin comillas..No va. */
+  /* font-family: "Montserrat"; */
+  font-family: var(--fam--fuente);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/*=============================================
+=            Estilos de móvil            =
+=============================================*/
+
+/*=============================================
+=            Estilos del header            =
+=============================================*/
+
+header {
+  /*no funciona*/
+  /* flex-grow: 1; */
+  background-color: var(--col-fondo-header);
+}
+
+#menu-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+#menu-header button {
+  background-color: var(--col-fuente-menu);
+  color: var(--col-fondo-header);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Estilos logo header */
+.logo {
+  width: 90px;
+  border-radius: 7px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Estilos icono menú hamburguesa */
+p#icono-menu {
+  order: 1;
+}
+
+/* Estilos icono menú hamburguesa */
+#icono-burguer{
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Estilos menú hamburguesa */
+#menu{
+    position: fixed;
+    width: max-content;
+    /*Se cambia 100vh por 0vh para ocular el menú entero
+    si no se pulsa el icono*/
+    /* height: 0vh;*/
+    top: -100%;
+    height: max-content;
+    background: rgba(20, 30, 61, .95);
+    list-style: none;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu li{
+    /*Se cambia display block por none para ocultar
+    la lista del menú si no se pulsa el icono*/
+    /* display: none;
+    line-height: 30px;
+    margin: 50px; */
+    width: max-content;
+    transition: all .5s;
+    padding: .25rem;
+}
+
+#menu li a{
+    font-family: var(--fam-fuente-menu);
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+    text-align: center;
+}
+
+#menu li a.active, #menu li a:hover{
+    color: var(--col-fuente-menu);
+    transition: .3s;
+}
+
+/* Ocultando el checkbox */
+#check{
+  display: none;
+}
+
+
+/* Cuando se pulse el icono del menú hamburguesa
+se mostrará el menú... */
+#check:checked ~ #menu{
+  top: 75px;
+  left: 0;
+  width: 100%;
+  max-height: 70vh;
+  height: 100%;
+}
+
+/* ...y la lista */
+#check:checked ~ #menu li{
+    display: block;
+}
+
+/*=====  End of Estilos del header  ======*/
+
+/*=============================================
+=            Estilos del body            =
+=============================================*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+  background: url(../img/logo-emotions.png);
+  /* height: 80vh; */
+  background-position: center;
+  background-size: cover;
+  /*no funciona*/
+  flex-grow: 1;
+}
+
+main.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/*=====  End of Estilos del body  ======*/
+
+/*=============================================
+=            Estilos de los botones            =
+=============================================*/
+
+.botones{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+a.boton {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.boton {
+  background-color: var(--col-fondo-header);
+  color: var(--col-fuente-menu);
+  /* width: 200px;
+  height: 50px; */
+  /* min-width: 250px; */
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-family: var(--fam-fuente-menu);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0px 0px 0 var(--col-fondo-header);
+}
+
+.boton:hover {
+  color: var(--col-fondo-header);
+  background-color: var(--col-fuente-menu);
+  font-weight: bold;
+  box-shadow: 8px 8px 0 var(--col-fondo-header);
+}
+
+/*=====  End of Estilos de los botones  ======*/
+
+/*=============================================
+=            Estilos del modal            =
+=============================================*/
+dialog {
+  width: 100%;
+  max-width: 450px;
+  padding: 40px 70px;
+  border: 8px solid var(--col-fondo-header);
+  background-color: #fafafa;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  position: relative;
+  color: var(--col-fondo-header);
+}
+
+dialog h2 {
+  text-align: center;
+}
+
+dialog::backdrop {
+  background: var(--col-fondo-claro);
+}
+
+.campo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+dialog label {
+  font-size: 1.2rem;
+  width: 2rem;
+  text-align: left;
+}
+
+dialog input {
+  padding: 0.25rem;
+}
+
+dialog p {
+  color: #321c3b;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+dialog button,
+dialog a.boton {
+  box-shadow: 0px 0px 0 var(--col-fondo-header);
+  padding: 0.5rem;
+}
+
+dialog #close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  color: var(--col-fondo-header);
+  font-size: 1.8rem;
+}
+
+dialog button:hover,
+dialog a.boton:hover {
+  box-shadow: 8px 8px 0 var(--col-fondo-header);
+}
+
+/*=====  End of Estilos del modal  ======*/
+
+/*=============================================
+=            Estilos del footer            =
+=============================================*/
+
+footer {
+  /*no funciona*/
+  /* flex-grow: 1; */
+  /* height: 10vh; */
+  background-color: var(--col-fondo-header);
+  color: var(--col-fuente-menu);
+  display: flex;
+  transition: all 0.5s;
+  padding: 0.5rem 1rem;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: var(--fam-fuente-menu);
+  transition: all 0.5s;
+}
+
+footer ul#redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer ul#redes a {
+  color: var(--col-fuente-menu);
+  font-size: 1.2rem;
+}
+
+/*=====  End of Estilos del footer  ======*/
+
+/*=====  End of Estilos de móvil  ======*/
+
+/*=============================================
+=            Media queries            =
+=============================================*/
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+
+  #menu-header {
+    height: 90px;
+  }
+
+  #icono-burguer {
+    display: none;
+  }
+
+
+  header {
+    background-color: var(--col-fondo-header);
+  }
+
+  dialog {
+    top: 40%;
+    left: 40%;
+  }
+
+  p#icono-menu {
+    order: 0;
+  }
+
+  #menu {
+    /* position: relative;
+    height: 90px;
+    top: 0;
+    text-align: right;
+    transition: all 0.3s; */
+    position: unset;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    }
+
+  #menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    align-items: center;
+    transition: all 0.3s;
+  }
+
+  #menu li a {
+    transition: 0.3s;
+  }
+
+  .botones .boton {
+    transition: all 0.5s;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer p {
+    transition: 0.5s;
+  }
+}
+
+/*=====  End of Media queries  ======*/
