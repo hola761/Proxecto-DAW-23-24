@@ -26,3 +26,5 @@ function recuperarClientes(){
         fError: error=>console.log(error)  
     })
 }
+
+$d.addEventListener('DOMContentLoaded', recuperarClientes)
