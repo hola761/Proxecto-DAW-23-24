@@ -6,9 +6,6 @@ import jakarta.persistence.*;
 @Table(name = "u_realiza_s")
 public class U_realiza_s {
 
-    /*Esta columna falta el la tabla, yo no le añadí un id
-     * ahora, hace falta. No se puede probar hasta que esté añadido
-     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_u_realiza_s")

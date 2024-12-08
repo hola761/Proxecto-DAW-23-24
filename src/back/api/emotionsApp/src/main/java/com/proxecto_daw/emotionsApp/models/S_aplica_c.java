@@ -8,9 +8,6 @@ import jakarta.persistence.*;
 @Table(name = "s_aplica_c")
 public class S_aplica_c {
 
-    /*Esta columna falta el la tabla, yo no le añadí un id
-     * ahora, hace falta. No se puede probar hasta que esté añadido
-     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_s_aplica_c")
