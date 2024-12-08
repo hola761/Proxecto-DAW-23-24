@@ -1,5 +1,6 @@
 const $d = document,
-  $contenedorClientesM = $d.getElementById('contenido-tabla-movil')
+  $contenedorClientesM = $d.getElementById('contenido_tabla-movil'),
+  $contenedorClientesW = $d.getElementById('contenido_tabla-web')
 
 let usuarios = []
 
@@ -27,21 +28,38 @@ function recuperarClientes() {
     // fSuccess: json=>console.log(json),
     fSuccess: users => {
       usuarios = users._embedded.usuarios
-      cargarUsuarios(usuarios)
+      cargarUsuariosM(usuarios)
+      cargarUsuariosW(usuarios)
     },
     fError: error => console.log(error)
   })
 }
 
-function cargarUsuarios(usuarios) {
+function cargarUsuariosM(usuarios) {
   $contenedorClientesM.innerHTML = usuarios.map(usuario =>
+    `
+        <tr>
+          <td>${usuario.dni}</td>
+          <td>${usuario.nombre}</td>
+          <td>${usuario.telefono}</td>
+          <td><a href="#">Ver</a></td>
+        </tr>
+      `).join('')
+}
+
+function cargarUsuariosW(usuarios) {
+  $contenedorClientesW.innerHTML = usuarios.map(usuario =>
     `
       <tr>
         <td>${usuario.dni}</td>
         <td>${usuario.nombre}</td>
         <td>${usuario.telefono}</td>
-        <td><a href="#">Ver</a></td>
+        <td>${usuario.email}</td>
+        <td class="ver"><a href="#">Ver</a></td>
+        <td class="actualizar"><a href="#">Actualizar</a></td>
+        <td class="eliminar"><a href="#">Eliminar</a></td>
       </tr>
     `).join('')
 }
+
 $d.addEventListener('DOMContentLoaded', recuperarClientes)
