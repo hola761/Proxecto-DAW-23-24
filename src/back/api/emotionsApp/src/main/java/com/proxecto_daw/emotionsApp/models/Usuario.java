@@ -11,7 +11,7 @@ public class Usuario {
     @Id
     @Column(name="id_usuario")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @Column(name="dni")
     private String dni;
@@ -54,8 +54,8 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(Long id, String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol, List<Coche> coches, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
-        this.id = id;
+    public Usuario(Long Id, String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol, List<Coche> coches, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
+        this.Id = Id;
         this.dni = dni;
         this.nombre = nombre;
         this.telefono = telefono;
@@ -68,7 +68,7 @@ public class Usuario {
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
         this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
-
+    
     public Usuario(String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol, List<Coche> coches, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
         this.dni = dni;
         this.nombre = nombre;
@@ -84,13 +84,13 @@ public class Usuario {
     }
 
     public Long getId() {
-        return this.id;
+        return this.Id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setId(Long Id) {
+        this.Id = Id;
     }
-
+    
     public String getDni() {
         return this.dni;
     }
@@ -182,7 +182,7 @@ public class Usuario {
     @Override
     public String toString() {
         return "{" +
-            " id='" + getId() + "'" +
+            " Id='" + getId() + "'" +
             ", dni='" + getDni() + "'" +
             ", nombre='" + getNombre() + "'" +
             ", telefono='" + getTelefono() + "'" +
