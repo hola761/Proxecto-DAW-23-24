@@ -11,7 +11,7 @@ public class Servicio {
     @Id
     @Column(name = "id_servicio")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @Column(name = "nombre")
     private String nombre;
@@ -30,8 +30,8 @@ public class Servicio {
     public Servicio() {
     }
 
-    public Servicio(Long id, String nombre, double precio, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
-        this.id = id;
+    public Servicio(Long Id, String nombre, double precio, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
+        this.Id = Id;
         this.nombre = nombre;
         this.precio = precio;
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
@@ -46,11 +46,11 @@ public class Servicio {
     }
 
     public Long getId() {
-        return this.id;
+        return this.Id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setId(Long Id) {
+        this.Id = Id;
     }
 
     public String getNombre() {
@@ -88,7 +88,7 @@ public class Servicio {
     @Override
     public String toString() {
         return "{" +
-            " id='" + getId() + "'" +
+            " Id='" + getId() + "'" +
             ", nombre='" + getNombre() + "'" +
             ", precio='" + getPrecio() + "'" +
             ", serviciosAplicadosCoche='" + getServiciosAplicadosCoche() + "'" +

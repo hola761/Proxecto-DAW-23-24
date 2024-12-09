@@ -9,7 +9,7 @@ public class U_realiza_s {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_u_realiza_s")
-    private Long id;
+    private Long Id;
 
     /*Relación tabla usuario */
     @ManyToOne
@@ -29,8 +29,8 @@ public class U_realiza_s {
     public U_realiza_s() {
     }
 
-    public U_realiza_s(Long id, Usuario usuario, Rol rol, Servicio servicio) {
-        this.id = id;
+    public U_realiza_s(Long Id, Usuario usuario, Rol rol, Servicio servicio) {
+        this.Id = Id;
         this.usuario = usuario;
         this.rol = rol;
         this.servicio = servicio;
@@ -43,11 +43,11 @@ public class U_realiza_s {
     }
 
     public Long getId() {
-        return this.id;
+        return this.Id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setId(Long Id) {
+        this.Id = Id;
     }
 
     public Usuario getUsuario() {
@@ -77,7 +77,7 @@ public class U_realiza_s {
     @Override
     public String toString() {
         return "{" +
-            " id='" + getId() + "'" +
+            " Id='" + getId() + "'" +
             ", usuario='" + getUsuario() + "'" +
             ", rol='" + getRol() + "'" +
             ", servicio='" + getServicio() + "'" +

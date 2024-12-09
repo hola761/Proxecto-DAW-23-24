@@ -11,7 +11,7 @@ public class S_aplica_c {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_s_aplica_c")
-    private Long id;
+    private Long Id;
 
     /*Relación tabla coche */
     @ManyToOne
@@ -39,8 +39,8 @@ public class S_aplica_c {
     public S_aplica_c() {
     }
 
-    public S_aplica_c(Long id, Coche coche, Usuario usuario, Rol rol, Servicio servicio, Date fecha) {
-        this.id = id;
+    public S_aplica_c(Long Id, Coche coche, Usuario usuario, Rol rol, Servicio servicio, Date fecha) {
+        this.Id = Id;
         this.coche = coche;
         this.usuario = usuario;
         this.rol = rol;
@@ -54,6 +54,14 @@ public class S_aplica_c {
         this.rol = rol;
         this.servicio = servicio;
         this.fecha = fecha;
+    }
+
+    public Long getId() {
+        return this.Id;
+    }
+
+    public void setId(Long Id) {
+        this.Id = Id;
     }
 
     public Coche getCoche() {
@@ -99,12 +107,12 @@ public class S_aplica_c {
     @Override
     public String toString() {
         return "{" +
-            " coche='" + getCoche() + "'" +
+            " Id='" + getId() + "'" +
+            ", coche='" + getCoche() + "'" +
             ", usuario='" + getUsuario() + "'" +
             ", rol='" + getRol() + "'" +
             ", servicio='" + getServicio() + "'" +
             ", fecha='" + getFecha() + "'" +
             "}";
     }
-
 }

@@ -11,7 +11,7 @@ public class Rol {
     @Id
     @Column(name="id_rol")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idRol;
+    private Long Id;
 
     @Column(name="rol")
     private String rol;
@@ -31,8 +31,8 @@ public class Rol {
     public Rol() {
     }
 
-    public Rol(Long idRol, String rol, List<Usuario> usuarios, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
-        this.idRol = idRol;
+    public Rol(Long Id, String rol, List<Usuario> usuarios, List<S_aplica_c> serviciosAplicadosCoche, List<U_realiza_s> usuariosRealizanServicios) {
+        this.Id = Id;
         this.rol = rol;
         this.usuarios = usuarios;
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
@@ -46,12 +46,12 @@ public class Rol {
         this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
 
-    public Long getIdRol() {
-        return this.idRol;
+    public Long getId() {
+        return this.Id;
     }
 
-    public void setIdRol(Long idRol) {
-        this.idRol = idRol;
+    public void setId(Long Id) {
+        this.Id = Id;
     }
 
     public String getRol() {
@@ -89,7 +89,7 @@ public class Rol {
     @Override
     public String toString() {
         return "{" +
-            " idRol='" + getIdRol() + "'" +
+            " Id='" + getId() + "'" +
             ", rol='" + getRol() + "'" +
             ", usuarios='" + getUsuarios() + "'" +
             ", serviciosAplicadosCoche='" + getServiciosAplicadosCoche() + "'" +
