@@ -41,6 +41,15 @@
         <form action="#">
             <fieldset id="fondo">
                 <p class="controles">
+                    <label for="rol">Rol</label>
+                    <select name="rol" id="rol">
+                        <option value="-Escoge una opción-">-Escoge una opción-</option>
+                        <option value="Admin">Admin</option>
+                        <option value="Empleado">Empleado</option>
+                        <option value="Cliente">Cliente</option>
+                    </select>
+                </p>
+                <p class="controles">
                     <label for="dni">DNI </label>
                     <input type="text" name="dni" id="dni" />
                 </p>
@@ -49,12 +58,24 @@
                     <input type="text" name="nombre" id="nombre">
                 </p>
                 <p class="controles">
-                    <label for="telefono">Teléfono </label>
-                    <input type="text" name="telefono" id="telefono">
+                    <label for="telf">Teléfono </label>
+                    <input type="text" name="telf" id="telf">
+                </p>
+                <p class="controles">
+                    <label for="dir">Dirección </label>
+                    <input type="text" name="dir" id="dir">
                 </p>
                 <p class="controles">
                     <label for="email">Email </label>
                     <input type="text" name="email" id="email">
+                </p>
+                <p class="controles">
+                    <label for="nUsu">Nombre usuario</label>
+                    <input type="text" name="nUsu" id="nUsu">
+                </p>
+                <p class="controles">
+                    <label for="passUsu">Contraseña</label>
+                    <input type="text" name="passUsu" id="passUsu">
                 </p>
                 <p>
                     <input class="boton" type="submit" name="guardar-cliente" id="guardar-cliente"
@@ -80,7 +101,7 @@
             <address>666 999 000</address>
         </section>
     </footer>
-    
+    <script src="assets/js/addCliente.js"></script>
 </body>
 
 </html>

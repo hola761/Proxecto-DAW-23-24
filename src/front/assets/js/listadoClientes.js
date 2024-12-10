@@ -22,7 +22,7 @@ function ajax(options) {
     });
 }
 
-function recuperarClientes() {
+function recuperarUsuarios() {
   ajax({
     url: 'http://localhost:8095/usuarios',
     // fSuccess: json=>console.log(json),
@@ -62,4 +62,4 @@ function cargarUsuariosW(usuarios) {
     `).join('')
 }
 
-$d.addEventListener('DOMContentLoaded', recuperarClientes)
+$d.addEventListener('DOMContentLoaded', recuperarUsuarios)

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import com.proxecto_daw.emotionsApp.models.Usuario;
 
 @CrossOrigin(origins= "http://127.0.0.1:5500, http://localhost",
-methods = {RequestMethod.GET},
+methods = {RequestMethod.GET, RequestMethod.POST},
 maxAge = 3600)
 // @CrossOrigin(origins= "http://127.0.0.1:5500",
 // methods = {RequestMethod.GET},
