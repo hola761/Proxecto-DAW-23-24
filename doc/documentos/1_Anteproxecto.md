@@ -94,7 +94,7 @@ O primeiro mes haberá engadido un costo de contratación da luz de 55.82€
 - alquiler: 700€  
 - servidor, hosting, dominio: 3€
 - suministros: 49.50€  
-- salarios: 1700€
+- salarios: 1700€  
 Desglose suministros:  
 -internet: 35.50€  
 -auga: 14€    
