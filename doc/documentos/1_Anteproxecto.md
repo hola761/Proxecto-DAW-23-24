@@ -54,7 +54,7 @@ Como ofrecemos un producto completamente personalizado, requírese dun certo gra
 
 Este negocio estará dirixido a proporcionar aplicacións e/ou páxinas web para aqueles negocios que non requiren dun gran sistema de xestión.  
  
-A aplicación en cuestión irá dirixida ós negocios. E no momento en que os nosos clientes o precisen, engadiránse novas funcións axustando cada vez mais o produto ás súas necesidades. Dese xeito pódese engadir, por exemplo, unha parte á que poidan acceder os seus clientes como unha sección na que pedir cita, e que o negocio reciba ó instante unha notificación mediante correo ou na mesma aplicación desa cita.  
+A aplicación en cuestión irá dirixida ós negocios. E no momento en que os nosos clientes o precisen, engadiránse novas funcións axustando cada vez mais o produto ás suas necesidades. Dese xeito pódese engadir, por exemplo, unha parte á que poidan acceder os seus clientes como unha sección na que pedir cita, e que o negocio reciba ó instante unha notificación mediante correo ou na mesma aplicación desa cita.  
 
 Aínda que este proxecto irá dirixido exclusivamente a un negocio relacionado cos automóbiles, a idea de negocio que xurde desta aplicación é precisamente a personalización completa da aplicación ou web, co cal, crearíase dende cero unha nova para cada cliente, porque cada negocio ten as súas propias necesidades.
 
@@ -76,8 +76,7 @@ Hai negocios que non precisan dun gran software de xestión con centos de funci�
 
 ### 2.6- Forma xurídica
   
-  *Hay que cambiarla!!!!!*
-Sociedad de Responsabilidad Limitada(S.L/S.R.L): Elixida tanto polo número de socios necesarios como polo capital mínimo necesario para levar a cabo a constitución da empresa. Tamén para poder responder únicamente cos bens da empresa e non cos propios.
+Sociedad de Responsabilidad Limitada(S.L/S.R.L): Elixida tanto polo número de socios necesarios como polo capital mínimo necesario para levar a cabo a constitución da empresa. Tamén para poder responder únicamente cos bens da empresa e non cos propios.  
 
 ### 2.7- Investimentos
 
@@ -88,23 +87,23 @@ Desglose investimento inicial:
 
 #### 2.7.1- Custos
 
-**Custos totais: 963.15€/mes**  
+**Custos totais: 2664€/mes**  
 
-*Total custos fixos: o primeiro mes: 809€, despois: 753€/mes*  
+O primeiro mes haberá engadido un costo de contratación da luz de 55.82€
+*Total custos fixos: o primeiro mes: 2509€, despois: 2453€/mes*  
 - alquiler: 700€  
 - servidor, hosting, dominio: 3€
 - suministros: 49.50€  
+- salarios: 1700€
 Desglose suministros:  
 -internet: 35.50€  
--auga: 14€  
--contración luz: 55.82€  
+-auga: 14€    
+Desglose salarios:  
+-Salario traballadores(1): 1300€  
+-Cotizacións: 400€  
 
 *Total custos variables: media de 60€*  
 - luz: 47.50€(estimación)  
-
-*Total salarios: 1700€/mes*
- - Salario trabajadores(1): 1300€
- - Cotizaciones: 400€
 
 *Total impostos: 150.15/mes*
  - Imposto de sociedades(IS)(anual): ó ser unha empresa de nova creación aplícase o 15% e non o 23%.  
@@ -115,14 +114,15 @@ Sin embargo, non poderá ser abonado porque os resultados da empresa son negativ
 
 #### 2.7.2- Ingresos
 
-**Total ventas previstas último terzo 2024: 410€**  
+**Total ventas previstas último terzo 2024: 940€**  
 *Desglose ingresos-venta:*
-- Por venta de aplicación(1): 180€  
-- Por formacións(4h): 80€  
-- Por servidor, hosting e soporte(3meses): 150€   
+- Por venta de aplicación(2): 480€  
+- Por formacións(8h): 160€  
+- Por servidor, hosting e soporte(3meses): 300€   
 
-*Listaxe prezos:*  
-- Tarifa mensual emprego software básico: 60€/mes  
+*Listaxe prezos básicos:*  
+- Tarifa mensual emprego software básico: 60€/mes
+(engadiránse entre 10 e 20 euros/mes por funcionalidade engadida dependedo do aumento no mantemento ou espacio no servidor, por exemplo)  
 - Formación: 20€/h    
 - Custo servidor(15€), hosting(15€) e soporte(20€) (poden prescindir dalgún destes servizos si así o desexan): 50€/mes
 
@@ -135,17 +135,14 @@ O proxecto é viable dende o punto de vista técnico. É posible dispoñer tanto
 #### 2.8.2 - Viabilidade económica
  
 **Desglose custos totais:**  
--Custos: 1.020€ o primeiro mes, despois 963.15€/mes  
+-Custos: 2720€ o primeiro mes, despois 2664€/mes  
 -Investimentos: 1680€  
  
- - Umbral de rentabilidade: total ventas - total costes
- - 410 - (963.15*3)+55.82+1680
- - 410-4626= -4216. Debería ser igual a 0
- - Tendría que haber unos ingresos cada 3 meses de 4920€ para que el umbral de rentabilidad se vuelva positivo. Eso significa que, tal y como están los precios tendría que haber una media de 10 clientes más. Teniendo en cuenta que los precios irían aumentando en aplicaciones más grandes. Los precios que están ahora mismo listados son los más básicos.
+ - Umbral de rentabilidade(1os 3 meses): total ventas(940€) - total custos(9728€)= -8790€
 
-Calculando o umbral de rentabilidade: 
+Reflexión: Terían que multiplicarse por 10 os ingresos para que o umbral de rentabilidade sexa positivo. O que significa que, tal e como están os prezos de venta de servizos e aplicacións, sería necesario chegar a uns 10 clientes mais.
 
-Cuns custos fixos mensuais duns 963.15€ e un investimento incial de 1680€. Podemos concluir que o negocio non é viable, tendo en conta os ingresos previstos para os primeiros 3 meses de vida do negocio: 410€. Nos primeiros meses da empresa, haberá perdas e non será posible contratar a mais empleados. Deste xeito, é imperativo chegar a mais clientes, na medida que sexa posible, para garantir a supervivencia e o posterior crecemento da empresa. 
+Tendo en conta todo isto, e analizando os datos dos primeiros meses o negocio: cuns custos fixos mensuais duns 2700€, un investimento de 1680€ e uns ingresos de 940€ o negocio non sería viable no caso de non conseguir chegar a mais clientes.
 
 #### 2.8.3- Conclusión
  
