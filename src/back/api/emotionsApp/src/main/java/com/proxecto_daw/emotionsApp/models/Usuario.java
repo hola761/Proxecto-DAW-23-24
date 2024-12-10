@@ -41,6 +41,11 @@ public class Usuario {
     private String cUsuario;
 
     /*Relación con la tabla rol */
+    /*Está mapeado con la clase rol pero
+     * falta indicar la columna en la tabla usuario.
+     * No existe el campo rol en la clase usuario
+     * en la api pero sí en la BD. Y lo necesito..
+     */
     @ManyToOne
     @JoinColumn(name="id_rol")
     private Rol rol;
