@@ -21,15 +21,15 @@
 
 ## 1- Descrición do proxecto  
 
-Este proxecto centrarase na realización dunha aplicación para un negocio de limpeza e reparacións menores de automóbiles. 
+Este proxecto centrarase na realización dunha aplicación para un negocio de limpeza e reparacións menores de automóbiles. A base da mesma será un xestor dos datos dos seus clientes, poderán engadir, eliminar, modificar e buscar os datos dos clientes e dos coches, por exemplo. Tamén descargar facturas dos traballos realizados e ter un calendario de citas no que poder organizarse mellor cos seus clientes. Cando a aplicación dos clientes esté lista tamén, serán eles mesmos os que poidan pedir cita e, os negocios, recibirán unha notificación ó instante desa cita pedida polo cliente.
  
-O propósito é que sexa a aplicación principal da empresa. Ofrecendo melloras continuas acorde ás súas peticións e necesidades.  
+O propósito é que sexa a aplicación principal da empresa. Ofrecendo melloras continuas acorde ás suas peticións e necesidades.  
 
 O desenvolvemento desta aplicación abre unha oportunidade de negocio neste sector ó non existir, ata o momento, aplicacións ou páxinas web personalizadas segundo as necesidades de cada cliente.
 
-A idea xurdiu tras falar cun empresario dono dun negocio de limpeza de automóbiles e traballos menores de chapa e pintura. Buscaba unha aplicación que ofrecera a posibilidade de acceder dende o móbil e dende o ordenador. Sinxela de usar, na que ter os datos dos clientes gardados, xestionar as citas e, nun futuro, ir engadindo funcións dacordo a novas necesidades que foran xurdindo.
+A idea xurdiu tras falar cun empresario dono dun negocio de limpeza de automóbiles e traballos menores de chapa e pintura. Buscaba unha aplicación que ofrecera a posibilidade de acceder dende o móbil e dende o ordenador. Sinxela de usar, na que ter os datos dos clientes gardados, xestionar as citas e, nun futuro, ir engadindo funcións dacordo a novas necesidades que vaian xurdindo.
 
-As tecnoloxías escollidas para levar a cabo este proxecto son: html, css e javascript para a parte do usuario (front-end) e sql, php e java para a creación e o acceso á base de datos (back.end).
+As tecnoloxías escollidas para levar a cabo este proxecto son: html, css e javascript para a parte do usuario (front-end) e sql, php e java para a creación e o acceso á base de datos (back-end).
 
 ## 2- Empresa
 
@@ -52,9 +52,9 @@ Como ofrecemos un producto completamente personalizado, requírese dun certo gra
 
 ### 2.3- Segmento de clientes
 
-Este negocio está dirixido a proporcionar aplicacións e/ou páxinas web para aqueles negocios que non requiren dun gran sistema de xestión.  
+Este negocio estará dirixido a proporcionar aplicacións e/ou páxinas web para aqueles negocios que non requiren dun gran sistema de xestión.  
  
-A aplicación en cuestión irá dirixida ós negocios. E no momento en que os nosos clientes o precisen, engadiránse novas funcións axustando cada vez mais o produto ás súas necesidades. Dese xeito pódese engadir, por exemplo, unha parte á que poidan acceder os seus clientes como unha sección na que pedir cita, e que o negocio reciba ó instante unha notificación mediante correo ou na mesma aplicación desa cita.  
+A aplicación en cuestión irá dirixida ós negocios. E no momento en que os nosos clientes o precisen, engadiránse novas funcións axustando cada vez mais o produto ás suas necesidades. Dese xeito pódese engadir, por exemplo, unha parte á que poidan acceder os seus clientes como unha sección na que pedir cita, e que o negocio reciba ó instante unha notificación mediante correo ou na mesma aplicación desa cita.  
 
 Aínda que este proxecto irá dirixido exclusivamente a un negocio relacionado cos automóbiles, a idea de negocio que xurde desta aplicación é precisamente a personalización completa da aplicación ou web, co cal, crearíase dende cero unha nova para cada cliente, porque cada negocio ten as súas propias necesidades.
 
@@ -72,52 +72,57 @@ Na nosa zona tamén existen varias empresas informáticas que ofrecen distintos 
 
 Pese a existir varias aplicacións existentes, a nosa ofrece unha personalización que aplicacións mais xerais non teñen.  
 
-Hai negocios que non precisan dun gran software de xestión con centos de funcións. Pero sí dun programa ó que poidan ecceder desde o centro de traballo e desde o seu teléfono por exemplo, eso é o que ofrecemos: as funcións que precisen en cada momento e, si requiren mais, ir engadíndoas.
+Hai negocios que non precisan dun gran software de xestión con centos de funcións. Pero sí dun programa ó que poidan ecceder dende o centro de traballo e desde o seu teléfono por exemplo, eso é o que ofrecemos: as funcións que precisen en cada momento e, si requiren mais, ir engadíndoas.
 
 ### 2.6- Forma xurídica
   
-Sociedad de Responsabilidad Limitada(S.L/S.R.L): Elixida tanto polo número de socios necesarios como polo capital mínimo necesario para levar a cabo a constitución da empresa. Tamén para poder responder únicamente cos bens da empresa e non cos propios.
+Sociedad de Responsabilidad Limitada(S.L/S.R.L): Elixida tanto polo número de socios necesarios como polo capital mínimo necesario para levar a cabo a constitución da empresa. Tamén para poder responder únicamente cos bens da empresa e non cos propios.  
 
 ### 2.7- Investimentos
 
-Investimento total inicial: 1735€  
-Desglose custos-investimento inicial:  
-- Custo equipo: 1330€  
-- Custo contratación luz: 55.82€   
-- Custo mobiliario: 349€
+Investimento total inicial: 1680€  
+Desglose investimento inicial:  
+- Equipo: 1330€     
+- Mobiliario: 349€
 
 #### 2.7.1- Custos
 
-**Custos totais: 963.15€/mes**  
+**Custos totais: 2664€/mes**  
 
-*Total custos fixos: 753€/mes*  
+O primeiro mes haberá engadido un costo de contratación da luz de 55.82€
+*Total custos fixos: o primeiro mes: 2509€, despois: 2453€/mes*  
 - alquiler: 700€  
 - servidor, hosting, dominio: 3€
 - suministros: 49.50€  
+- salarios: 1700€  
 Desglose suministros:  
 -internet: 35.50€  
--auga: 14€  
+-auga: 14€    
+Desglose salarios:  
+-Salario traballadores(1): 1300€  
+-Cotizacións: 400€  
 
 *Total custos variables: media de 60€*  
 - luz: 47.50€(estimación)  
 
 *Total impostos: 150.15/mes*
  - Imposto de sociedades(IS)(anual): ó ser unha empresa de nova creación aplícase o 15% e non o 23%.  
-Sin embargo, non poderá ser abonado porque os resultados da empresa son negativos. Dese xeito queda pendente o pago para o primeiro ano en que a empresa comece a dar saldo positivo, o porcentaxe será do 15% os dous primeiros anos que a empresa teña saldo positivo.
+Sin embargo, non poderá ser abonado porque os resultados da empresa son negativos. Dese xeito queda pendente o pago para o primeiro ano en que a empresa comece a dar saldo positivo, o porcentaxe será do 15% os dous primeiros anos nos que a empresa teña saldo positivo.
  - IVE (cada 3 meses):  
 -ventas: 86.10€  
 -compras: 364.35€
 
 #### 2.7.2- Ingresos
 
-**Total ventas previstas último terzo 2024: 410€**  
+**Total ventas previstas último terzo 2024: 940€**  
 *Desglose ingresos-venta:*
-- Por venta de aplicación(1): 180€  
-- Por formacións(4h): 80€  
-- Por servidor, hosting e soporte(3meses): 150€   
+- Por venta de aplicación(2): 480€  
+- Por formacións(8h): 160€  
+- Por servidor, hosting e soporte(3meses): 300€   
 
-*Listaxe prezos:*  
-- Tarifa mensual emprego software básico: 60€/mes  
+*Listaxe prezos básicos:*  
+- Tarifa mensual emprego software básico: 60€/mes
+(engadiránse entre 10 e 20 euros/mes por funcionalidade engadida dependedo do aumento no mantemento ou espacio no servidor, por exemplo)  
 - Formación: 20€/h    
 - Custo servidor(15€), hosting(15€) e soporte(20€) (poden prescindir dalgún destes servizos si así o desexan): 50€/mes
 
@@ -130,10 +135,14 @@ O proxecto é viable dende o punto de vista técnico. É posible dispoñer tanto
 #### 2.8.2 - Viabilidade económica
  
 **Desglose custos totais:**  
--Custos: 963.15€/mes  
--Investimentos: 1735€  
+-Custos: 2720€ o primeiro mes, despois 2664€/mes  
+-Investimentos: 1680€  
  
-Cuns custos fixos mensuais duns 963.15€ e un investimento incial de 1735€. Podemos concluir que o negocio non é viable, tendo en conta os ingresos previstos para os primeiros 3 meses de vida do negocio: 410€. Nos primeiros meses da empresa, haberá perdas e non será posible contratar a mais empleados. Deste xeito, é imperativo chegar a mais clientes, na medida que sexa posible, para garantir a supervivencia e o posterior crecemento da empresa. 
+ - Umbral de rentabilidade(1os 3 meses): total ventas(940€) - total custos(9728€)= -8790€
+
+Reflexión: Terían que multiplicarse por 10 os ingresos para que o umbral de rentabilidade sexa positivo. O que significa que, tal e como están os prezos de venta de servizos e aplicacións, sería necesario chegar a uns 10 clientes mais.
+
+Tendo en conta todo isto, e analizando os datos dos primeiros meses o negocio: cuns custos fixos mensuais duns 2700€, un investimento de 1680€ e uns ingresos de 940€ o negocio non sería viable no caso de non conseguir chegar a mais clientes.
 
 #### 2.8.3- Conclusión
  
@@ -148,17 +157,17 @@ Na comunidade de Galicia existen diferentes axudas ó emprendemento:
 ## 3- Requirimentos técnicos
 
 - **Infraestructura:** servizos necesarios:  
--Servidor(vps): Será necesario contratar os servizos de almacenamento dunha empresa para poder desplegar as nosas aplicacións para que os nosos clientes poidan acceder a elas e nós podamos facer o mantemento das mesmas así como implementar melloras, ou solucionar posibles erros.
+-Servidor(vps): Será necesario contratar os servizos de almacenamento dunha empresa para poder desplegar as nosas aplicacións para que os nosos clientes poidan acceder a elas e nós podamos facer o mantemento das mesmas, así como implementar melloras, ou solucionar posibles erros.
 - **Backend:** empregaránse as seguintes tecnoloxías:  
 -Mysql: como xestor de base de datos.  
--Sql: para o script de creación da base de datos, e para as tareas relacionadas co acceso, modificación, engadido e eliminación de datos.  
--Php: para xestionar as entradas dos usuarios na apliación: 
+-Sql: para o script de creación da base de datos, e para as tarefas relacionadas co acceso, modificación, engadido e eliminación de datos.  
+-Php: para xestionar as entradas dos usuarios na aplicación: 
 autenticación de usuarios.  
 -Java-SpringDataRest: para xestionar o acceso á base de datos.  
 - **Frontend:** empregaránse as seguintes tecnoloxías:  
 -Javascript: para a funcionalidade da páxina.  
 -Html: para a creación da base visual da páxina web.  
--Css: para mellorar visualmente a páxina e engadir algunha pequena función.
+-Css: para mellorar visualmente a páxina e engadir algunha pequena funcionalidade.
 
 ## 4- Planificación
 
