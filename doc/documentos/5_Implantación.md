@@ -11,13 +11,19 @@
 
 ### 1.1- Instalación
 
-Para todo aquel que desexe continuar con este proxecto, estes son os pasos que debe seguir:
-
- - Descargar e executar o script de creación e engadido de datos de proba atopado na seguinte carpeta: [Carpeta onde se atopa o script](../script_bd)  
-O script é para unha base de datos mysql, no caso de escoller empregar outro servidor de BD será necesario facer os cambios pertinentes no código.  
- - Descargar o código atopado na carpeta: [Carpeta onde se atopa o código da aplicación feito ata o momento](/src)  
-Nesta carpeta atópase tanto o código do front-end como o do back-end.
- - Para o despregue da aplicación será necesario un servidor, contenedor ou a tecnoloxía que se desexe empregar.  
+Indicacións e pasos a seguir para o despregue do proxecto nunha máquina virtual:
+  - Instalar Java.
+  - Instalar Xampp.
+  - Importar no phpmyadmin o script de creación da BD: [script](/doc/script_bd/script_creacion_BD.sql)
+  - Instalar Visual Studio Code xunto coas extensións necesarias para as linguaxes: Php, Java, Html, Css e JavaScript.
+  - Co entorno xa preprado será necesario copiar dentro da carpeta htdocs a carpeta src: [Carpeta co código do proxecto](src)
+  - Engadir un enlace ó arquivo index.php/html do proxecto, no archivo index.php/html. O cal ven por defecto dentro da carpeta htdocs
+  - Abrir o manager do xampp e executar o phpmyadmin e o apache
+  - Abrir a carpeta htdocs no visual studio e exuctar a clase main da api
+  - Accedendo a localhost no navegador teremos un enlace no que, premendo, poderemos acceder á páxina de inicio de sesión do proxecto.
+  - Datos necesarios para iniciar sesión:
+    - usuario: pacouser
+    - contraseña: abc123.
 
 ### 1.2- Administración do sistema
 
@@ -35,5 +41,5 @@ Esta aplicación é moi sinxela de usar e non require de manual, nin de formaci�
 
  - Implementación da aplicación adicada ós clientes.  
  - Implementación do calendario de citas, tanto para a empresa como para os clientes.  
- - Implementación da parte de compras de produtos, tanto para a empresa para que poidan engadir con sinxeleza e rapidez os produtos como para os clientes, que poidan ver nos seus dispositivos os produtos ofrecidos pola empresa para a súa compra.
+ - Implementación da parte de compras de produtos, tanto para a empresa; para que poidan engadir con sinxeleza e rapidez os produtos, como para os clientes; para que poidan ver nos seus dispositivos os produtos ofrecidos pola empresa dispoñibles para a súa compra.
 

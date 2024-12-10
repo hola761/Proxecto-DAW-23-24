@@ -3,9 +3,10 @@
   - [1- Incidencias](#1--incidencias)
   - [2- Tarefas](#2--tarefas)
 
-## 1- Incidencias
+## 1- Incidencias  
 
-Como está a haber problemas coa implantación da api para o acceso ós datos da BD ca linguaxe php, elixeuse unha nova tecnoloxía empregada nas prácticas para a realización desta tarefa.
-A nova linguaxe escolleita é Java, e utilizarase Spring Data Rest. O proxecto da api será creado con Spring Boot para facilitar ainda mais o proceso. Spring Data Rest facilita e simplifica moito a realización de apis para o acceso á BD. Calcúlase que no plazo de 2 días como moito, tendo en conta os posibles fallos que poden dar as relacións entre as taboas, debería estar lista e funcionando.
+ - Tuvéronse que cambiar varias veces tanto, o script de creación e engadido de datos de proba da BD como os diagramas da mesma por errores. Errores no diseño no caso dos diagramas e errores de falta de campos identificadores e nos nomes das táboas.
+ - Elixeuse cambiar a linguaxe de creación da api para o acceso ós datos da BD por problemas con php que foi a linguaxe escollida nun principio.
 
 ## 2- Tarefas
+Debido ós problemas coa implantación da api coa linguaxe php, decideuse cambiala linguaxe por Java, empregando o framework Spring. Utilizarase en concreto Spring Data Rest por facilidade e rapidez á hora de realizala tarefa.

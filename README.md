@@ -21,44 +21,54 @@
 Proxecto en fase de desenrolo.
 
 ## Descrición
- 
-> *EXPLICACIÓN*: Realiza unha breve descrición do proxecto. Non menos de 100 palabras e non máis de 300. Resalta o fundamental *coas túas propias palabras**. Utiliza unha linguaxe correcta, *pero natural**, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.
-> Descrición básica das ferramentas/tecnoloxías/linguaxes de programación,... empregados.
 
-Aplicación web de axuda de xestión de negocios pequenos.  
-- Tecnoloxías ou linguaxes empregados para a realización do front-end:  
--HTML  
--CSS  
--JavaScript  
+Aplicación web de axuda na xestión de negocios pequenos. Os usuarios poderán acceder ós datos dos seus clientes, engadir mais, eliminalos, modificar os existentes, facer búsquedas, pedir citas ou consultar as citas do día e descargar facturas dos traballos realizados.
+
+- Tecnoloxías ou linguaxes empregados para a realización do front-end: HTML, CSS e JavaScript.  
 - Tecnoloxías ou linguaxes empregados para a realización do back-end:  
--SQL  
--PHP  
--Java  
+-SQL para a creación e engadido de datos.  
+-PHP para configurar o inicio de sesión dos usuarios.  
+-Java xunto co framework Spring para a creación da api para o acceso á base de datos 
+-Xampp co phpmyadmin como servidor de base de datos  
 
 ## Instalación / Posta en marcha
 
-> *EXPLICACIÓN*: Neste apartado describe con toda precisión e a poder ser coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun ambiente local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (p. e. un script de instalación, descarga e posta en marcha dun contedor,...).
-
-Para a posta en marcha de proxecto é necesario executar o script de creación da base de datos e inserción dos datos de proba. Premendo no seguinte enlace abrirase o devandito documento:  
-[Prema aquí para abrir o script de creación da base de datos](/doc/script_bd/script_creacion_BD.sql)  
-
-O servidor necesario para a BD é mysql. Se se desexa cambiar de servidor será necesario facer diversas modificacións, como as relativas ó script de creación e á api: habería que cambiar os datos de conexión atopados no archivo 'application-properties'. É recomendable empregar un servidor mysql para facilidade e rapidez.
+Indicacións e pasos a seguir para o despregue do proxecto nunha máquina virtual:
+ - Instalar Java.
+ - Instalar Xampp.
+ - Importar no phpmyadmin o script de creación da BD: [script](/doc/script_bd/script_creacion_BD.sql)
+ - Instalar Visual Studio Code xunto coas extensións necesarias para as linguaxes: Php, Java, Html, Css e JavaScript.
+ - Co entorno xa preprado será necesario copiar dentro da carpeta htdocs a carpeta src: [Carpeta co código do proxecto](src)
+ - Engadir un enlace ó arquivo index.php/html do proxecto, no archivo index.php/html. O cal ven por defecto dentro da carpeta htdocs
+ - Abrir o manager do xampp e executar o phpmyadmin e o apache
+ - Abrir a carpeta htdocs no visual studio e exuctar a clase main da api
+ - Accedendo a localhost no navegador teremos un enlace no que, premendo, poderemos acceder á páxina de inicio de sesión do proxecto.
+ - Datos necesarios para iniciar sesión:
+   - usuario: pacouser
+   - contraseña: abc123.
 
 ## Uso
-
-> *EXPLICACIÓN*: É este apartado describe brevemente como se usará a aplicación Web do proxecto. Describe o uso da interface web *só o uso** (a modo de sumario) *dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, coma se fose un anuncio reclamo ou comercial).
->
 
 Cun menú intuitivo e fácil de usar, poderase acceder a listas de clientes, servizos e coches e facer unha rápida búsqueda para acceder ós detalles de cada un.
 Ca mesma facilidade poderase engadir, actualizar e eliminar o que se desexe.  
 
 ## Sobre o autor
 
-> *EXPLICACIÓN*: Realiza unha breve descrición de quen es (perfil profesional), os teus puntos fortes, ou tecnoloxías que máis dominas... a motivación do proxecto, tendo sobre todo en conta un nicho de mercado sen explotar.. *Non máis de 200 palabras**. Indica a forma fiable de contactar contigo durante o proceso de creación do proxecto.
+> *EXPLICACIÓN*: Realiza unha breve descrición de quen es (perfil profesional), os teus puntos fortes, ou tecnoloxías que máis dominas... a motivación do proxecto, tendo sobre todo en conta un nicho de mercado sen explotar.. *Non máis de 200 palabras**. Indica a forma fiable de contactar contigo durante o proceso de creación do proxecto.  
+> 
+O meu nome é Sandra e son alumna de Desenrolo de Aplicacións Web.  
+
+ *REVISAR ESTE PÁRRAFO*  
+Son unha persoa que disfruta de aprender cousas novas e que veu a posibilidade de cambiar de sector despois de algúns anos de traballar en hostelería e fábrica. Aínda que os inicios foron complicados ó descoñecer por completo o máis básico deste sector, a medida que fun aprendendo disfruto mais e atrévome mais a probar e aprender cousas novas.  
+ *REVISAR HASTA AQUÍ*  
+
+Este proxecto xurdeu como idea ó ver a necesidade dunha aplicación propia nun negocio da zona do sector de limpeza de automóbiles e pequenos traballos de chapa, pintura e mecánica.
+
+Os meus datos de contacto: sandrasm.job5@gmail.com
 
 ## Licenza
 
-> *EXPLICACIÓN*: É requisito INDISPENSABLE o licenciar explicitamente o proxecto software. Recoméndase licenciar con GNU Free Documentation License Version 1.3*. Crear un ficheiro `LICENSE` na raiz do repo, co teu ficheiro de licenza. Lembra que se empregas unha licenza de software libre estás a autorizar a derivación da túa obra baixo a mesma licenza que elixas, podendo dar continuidade, p. e. outro alumno, para continuar o teu proxecto noutro curso.
+[Lincenza](LICENSE.md)
 
 ## Índice
 
@@ -74,7 +84,12 @@ Ca mesma facilidade poderase engadir, actualizar e eliminar o que se desexe.
 
 ## Guía de contribución
 
-> EXPLICACIÓN*: Tratándose dun proxecto de software libre, é moi importante que expoñas como se pode contribuír co teu proxecto. Algúns exemplos disto son realizar novas funcionalidades, corrección e/o optimización do código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins etc. Se o máis conciso que poidas.
+Cómo contribuir a este proxecto: 
+ - Engadindo funcionalidades como:
+   - O calendario de citas
+   - A posibiidade de descargar as facturas dos traballos realizados
+ - Corrixindo e optimizando o código tanto do front como do back
+ - Integrando Sass no front
 
 ## Links
 
