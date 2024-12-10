@@ -24,7 +24,7 @@
         #introducido el usuario en el formulario en la base de datos:
         else{
             #Vale, parece que está mal porque el 'AND' no está de color azul pero parece que ha dejado de dar fallo el sql y llega al printf(), con lo cual, tiene que ser un bug o algo, si no reconociera algo, seguiría dando fallo en el sql..
-            $sql = 'SELECT id_usuario, n_usuario, c_usuario FROM usuario WHERE n_usuario = "'.$usuario.'" AND c_usuario = "'.$pass.'"';
+            $sql = 'SELECT id_usuario, n_usuario, c_usuario FROM usuarios WHERE n_usuario = "'.$usuario.'" AND c_usuario = "'.$pass.'"';
 
             $result = mysqli_query($con, $sql);
             #printf('Hast aquí llegamos');
@@ -43,7 +43,7 @@
                 }
                 #Si alguno de los campos no coincide con los datos en la base de datos
                 #Volvemos a la página index.php(donde estamos ya) mandando
-                #un error para poder mostrarlo al usuario
+                #un error para poder mostrarlo al usuario.
                 else{
                     header('Location: ../../front/index.php?error=Los datos introducidos no son correctos');
                 }

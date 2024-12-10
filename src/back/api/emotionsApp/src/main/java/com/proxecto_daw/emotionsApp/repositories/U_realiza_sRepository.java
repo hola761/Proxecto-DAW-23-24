@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.proxecto_daw.emotionsApp.models.U_realiza_s;
 
-@CrossOrigin(origins= "http://localhost:5500",
+@CrossOrigin(origins= "http://127.0.0.1:5500, http://localhost",
 methods = {RequestMethod.GET},
 maxAge = 3600)
 @RepositoryRestResource(path = "usuarios-realizan-servicios")

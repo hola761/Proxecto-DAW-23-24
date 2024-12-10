@@ -11,6 +11,12 @@ public class Usuario {
     @Id
     @Column(name="id_usuario")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
+    /*La variable mapeada con el id correspondiente en la BD
+     * debe escribirse tal cual así: Id y debe ser de tipo Long.
+     * Lo del tipo no lo sé fijo pero, lo de escribirse así, sí.
+     * Si no se escribe tal cual así, no aparecerá en el json
+     * de la response el dato.
+     */
     private Long Id;
 
     @Column(name="dni")
