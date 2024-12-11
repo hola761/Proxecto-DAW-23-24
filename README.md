@@ -11,12 +11,7 @@
   - [Guía de contribución](#guía-de-contribución)
   - [Links](#links)
 
-> *EXPLICACIÓN*: Este documento será a "*páxina de aterrizaxe*" do teu proxecto. Será ou primeiro que vexan vos que se interesen por el. Cúida a sua redacción con todo ou mimo. Elimina posteriormente todas as lineas "EXPLICACIÓN*" cando creas finalizada a súa redacción.
-> Podes acompañar á redacción deste ficheiro con imaxes ou gifs, pero non abuses deles.
-
 ## Taboleiro do proyecto
-
-> *EXPLICACIÓN:* neste punto indica se o proyecto está en fase de desenrolo ou finalizado.
 
 Proxecto en fase de desenrolo.
 
@@ -54,15 +49,11 @@ Ca mesma facilidade poderase engadir, actualizar e eliminar o que se desexe.
 
 ## Sobre o autor
 
-> *EXPLICACIÓN*: Realiza unha breve descrición de quen es (perfil profesional), os teus puntos fortes, ou tecnoloxías que máis dominas... a motivación do proxecto, tendo sobre todo en conta un nicho de mercado sen explotar.. *Non máis de 200 palabras**. Indica a forma fiable de contactar contigo durante o proceso de creación do proxecto.  
-> 
 O meu nome é Sandra e son alumna de Desenrolo de Aplicacións Web.  
 
- *REVISAR ESTE PÁRRAFO*  
-Son unha persoa que disfruta de aprender cousas novas e que veu a posibilidade de cambiar de sector despois de algúns anos de traballar en hostelería e fábrica. Aínda que os inicios foron complicados ó descoñecer por completo o máis básico deste sector, a medida que fun aprendendo disfruto mais e atrévome mais a probar e aprender cousas novas.  
- *REVISAR HASTA AQUÍ*  
+Comencei hai uns anos neste mundo da informática sen saber nada. Polo tanto, ainda non me considero "boa" en nada, nin sinto que domine ninguha tecnoloxía. Aínda me queda moito por aprender pero, penso que vou por bo camiño.  
 
-Este proxecto xurdeu como idea ó ver a necesidade dunha aplicación propia nun negocio da zona do sector de limpeza de automóbiles e pequenos traballos de chapa, pintura e mecánica.
+Este proxecto xurdeu como idea ó ver a necesidade dunha aplicación propia nun negocio da zona do sector de limpeza de automóbiles e pequenos traballos de chapa, pintura e mecánica.  
 
 Os meus datos de contacto: sandrasm.job5@gmail.com
 
@@ -92,5 +83,3 @@ Cómo contribuir a este proxecto:
  - Integrando Sass no front
 
 ## Links
-
-> EXPLICACIÓN*: Ligazóns externas e descipciones destas ligazóns que creas conveniente indicar aquí. Xeralmente xa van estar integrados coa túa documentación, pero se requires realizar unha listaxe deles, leste é o lugar.
