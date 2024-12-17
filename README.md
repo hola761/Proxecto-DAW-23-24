@@ -49,7 +49,7 @@ Ca mesma facilidade poderase engadir, actualizar e eliminar o que se desexe.
 
 ## Sobre o autor
 
-O meu nome é Sandra e son alumna de Desenrolo de Aplicacións Web.  
+O meu nome é Sandra e son alumna de Desenvolvemento de Aplicacións Web.  
 
 Comencei hai uns anos neste mundo da informática sen saber nada. Polo tanto, ainda non me considero "boa" en nada, nin sinto que domine ninguha tecnoloxía. Aínda me queda moito por aprender pero, penso que vou por bo camiño.  
 
