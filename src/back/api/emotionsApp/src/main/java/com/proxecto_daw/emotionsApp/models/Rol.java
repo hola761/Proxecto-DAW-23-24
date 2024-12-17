@@ -46,6 +46,11 @@ public class Rol {
         this.usuariosRealizanServicios = usuariosRealizanServicios;
     }
 
+    public Rol(Long Id, String rol) {
+        this.Id = Id;
+        this.rol = rol;
+    }
+
     public Long getId() {
         return this.Id;
     }

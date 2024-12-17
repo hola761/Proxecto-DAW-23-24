@@ -41,11 +41,6 @@ public class Usuario {
     private String cUsuario;
 
     /*Relación con la tabla rol */
-    /*Está mapeado con la clase rol pero
-     * falta indicar la columna en la tabla usuario.
-     * No existe el campo rol en la clase usuario
-     * en la api pero sí en la BD. Y lo necesito..
-     */
     @ManyToOne
     @JoinColumn(name="id_rol")
     private Rol rol;
@@ -92,6 +87,17 @@ public class Usuario {
         this.coches = coches;
         this.serviciosAplicadosCoche = serviciosAplicadosCoche;
         this.usuariosRealizanServicios = usuariosRealizanServicios;
+    }
+
+    public Usuario(String dni, String nombre, String telefono, String direccion, String email, String nUsuario, String cUsuario, Rol rol) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.email = email;
+        this.nUsuario = nUsuario;
+        this.cUsuario = cUsuario;
+        this.rol = rol;
     }
 
     public Long getId() {

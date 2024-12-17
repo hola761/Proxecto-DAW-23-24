@@ -32,20 +32,39 @@ function recuperarUsuarios() {
 }
 
 function recuperarDatosUsuario() {
+    let rolTextForm = $form.rol.value
+    let rolId = 0
+    let rolText = ""
+
+    if (rolTextForm == "Admin") {
+        rolId = 1
+        rolText = "admin"
+    }else if(rolTextForm == "Empleado"){
+        rolId = 2
+        rolText = "empleado"
+    }else{
+        rolId = 3
+        rolText = "cliente"
+    }
+    
     const data = {
-        // rol: `${$form.rol.value}`,
         dni: `${$form.dni.value}`,
         nombre: `${$form.nombre.value}`,
         telefono: `${$form.telf.value}`,
         direccion: `${$form.dir.value}`,
         email: `${$form.email.value}`,
         nusuario: `${$form.nUsu.value}`,
-        cusuario: `${$form.passUsu.value}`
+        cusuario: `${$form.passUsu.value}`,
+        rol: {
+            rol: rolText,
+            id: rolId
+        }
     }
     addUsuario(data)
 }
 
 function addUsuario(data) {
+    /**Nada, no hay manera. */
     ajax({
         url: 'http://localhost:8095/usuarios',
         method: 'POST',
