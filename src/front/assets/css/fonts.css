@@ -1,1 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+/*fuente normal*/
+@font-face {
+    font-family: 'Assistant';
+    src: url('../fonts/static/Assistant-Regular.ttf');
+}
+
+/*fuente negrita*/
+@font-face {
+    font-family: 'Assistan Bold';
+    src: url('../fonts/static/Assistant-Bold.ttf');
+}
