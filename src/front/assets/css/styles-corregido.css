@@ -324,6 +324,23 @@ footer p {
   transition: all 0.5s;
 }
 
+
+/**
+ *
+ * Añadido por mi
+ para posicionar en 2 columnas
+ el texto derecho del footer
+ *
+ */
+/* #derecha{
+  display: flex;
+  gap: 1.5rem;
+}
+
+#derecha #col-dcha, #derecha #col-izq{
+  flex-grow: 1;
+} */
+
 footer ul#redes {
   list-style: none;
   display: flex;
