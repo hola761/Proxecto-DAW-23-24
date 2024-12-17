@@ -1,11 +1,6 @@
 
-/*Hay que descargar los archivos de las fuentes para que funcione.
-TAREA PENDIENTE!!*/
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts.css');
-}
-
+/*importando la fuente*/
+@import url(fonts.css);
 
 /*=============================================
 =    Estilos comunes a todas las páginas      =
@@ -21,12 +16,10 @@ TAREA PENDIENTE!!*/
 /* Estilos generales a toda la página y variables */
 :root{
     --tam-fuente-menu: 1.2rem;
-    --fam-fuente-menu: Verdana, Geneva, Tahoma, sans-serif;
+    --fam-fuente-menu: 'Assistant';
     --col-fuente-menu: #FCA311;
     --col-fondo-header: #14213d;
-    /*Con comillas, sin comillas..No va. */
-    font-family: 'Montserrat';
-    --fam--fuente: 'Montserrat';
+    --fam--fuente: 'Assistant';
 }
 
 /*=============================================
