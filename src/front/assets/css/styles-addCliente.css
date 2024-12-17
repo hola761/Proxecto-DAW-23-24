@@ -36,7 +36,7 @@ fieldset p:last-of-type{
 
 .controles input, .controles label{
     display: block;
-    width: 30vh;
+    width: 20vh;
     height: 30px;
 }
 
@@ -45,6 +45,17 @@ fieldset p:last-of-type{
     border: none;
 }
 
+/* Colocando los controles del formulario en 2 columnas
+al aumentar los datos a aportar para crear al usuario */
+#columnas-form{
+    display: flex;
+    gap: 1.5rem;
+    /* flex-direction: column; */
+}
+
+#ctrls-dcha, #ctrls-izq{
+    flex-grow: 1;
+}
 
 .boton{
     display: flex;
@@ -92,7 +103,7 @@ fieldset p:last-of-type{
         width: 50vh;
     }
     .controles label, .controles input{
-        width: 50vh;
+        width: 25vh;
     }
 }
 
